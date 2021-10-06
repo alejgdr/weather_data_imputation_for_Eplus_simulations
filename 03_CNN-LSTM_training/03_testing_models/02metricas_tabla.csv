@@ -1,0 +1,2 @@
+tiempo,model,dif_energia_wh,porcentaje_energia,porcentaje_mae,mae_de_día_promedio
+2019-12-31,train_seasonal_layers_3_3_1_out_s_6in_s_6_lr_0.0001_Global_BS24.h5,0.8498145614757959,0.013746715118861257,0.7215846870323316,2.800293341010835
