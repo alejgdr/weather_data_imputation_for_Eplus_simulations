@@ -117,22 +117,26 @@ def dfmetricas(impesoru,impesoru_target,model_name):
     dfmindia.loc[dfmindia.alturasolar<0,'mae']=np.nan
     meandiay=dfmindia.mae.mean()
     
-    dfsamp2=dfrad.resample('D').sum()
+    dfsamp2=dfrad.resample('D').sum() #this dataframe is used to get the difference of energy 
     dfsamp=dfrad.resample('D').mean()
+    dfsamp['energia_wh/m2']=dfsamp2['Global']/6
+    dfsamp['energia_predicha_wh/m2']=dfsamp2['prediccion']/6
     dfsamp['dif_energia_wh']=dfsamp2['me']/6
     dfsamp['dif_energia_wh_mae']=dfsamp2['mae']/6
-    dfsamp['energia_wh/m2']=dfsamp2['Global']/6
     dfsamp['porcentaje_mae']=(dfsamp['dif_energia_wh_mae']/dfsamp['energia_wh/m2'])*100
-    dfsamp['energia_predicha_wh/m2']=dfsamp2['prediccion']/6
+    dfsamp['porcentaje_energia_daily']=dfsamp['dif_energia_wh']/dfsamp['energia_wh/m2']*100
+    #opci'on para que se el promedio anual del porcentaje de energ'ia diario
+    dfsamp['mae_daily']=dfsamp['mae']
+    #si mae_daily es igual a mae de d'ia promedio , entonces no hay ning'un problema'
 
-    tablita=['model','dif_energia_wh','porcentaje_energia','porcentaje_mae','mae_de_día_promedio']
+    tablita=['model','dif_energia_wh','porcentaje_energia','porcentaje_mae','mae_de_día_promedio','mae_daily']
     
     dfsamp3=dfsamp.resample('Y').mean()
-    dfsamp3['mae_de_día_promedio']=meandiay
     dfsamp3['dif_energia_wh']=-dfsamp3['energia_wh/m2']+dfsamp3['energia_predicha_wh/m2']
     dfsamp3['porcentaje_energia']=dfsamp3['dif_energia_wh']/dfsamp3['energia_wh/m2']*100
+    dfsamp3['mae_de_día_promedio']=meandiay
     dfsamp3['model']=model_name
-    return(dfsamp3[tablita],dfsamp,dfrad)
+    return(dfsamp3,dfsamp,dfrad)
 
 def begin_table(infodf,cols_gen,path,nombre_archivo): #creates a new empty archive to store a dataframe, just use it once
     df=infodf
@@ -150,20 +154,21 @@ def actualizar_bitacora(infodf,cols_gen,path,nombre_archivo): #adds a new row on
 def metricsamples(path,models,in_size,val_data_archivo):
     nombres1=['tiempo','Direct','Global','Difusa','Temperatura','Humedad','Presion','alturasolar','azimuth']
     esoru=importa(val_data_archivo,nombres1)
-    out_size= 144 #model4
+    out_size= 6 #model4
     #in_size, out_size =72,18 #model3
-    dias_rango=360#350#=time_hor
+    dias_rango=363#350#=time_hor
     istep=0#49400-288#6400 
-    scaler3=load(open('../../01_Documentos/03_Models/y_scalerv04.pkl','rb'))
-    scaler4=load(open('../../01_Documentos/03_Models/x_scalerv04.pkl','rb'))
-    fecha1='01/01/2019'#'01/10/2019'
-    fecha2='31/12/2019'#'31/12/2019'
-    rango=out_size*int((dias_rango*144)/out_size)
+    scalery=load(open('../02_grid_training/03_scalers/y_scalerv01.pkl','rb'))
+    scalerx=load(open('../02_grid_training/03_scalers/x_scalerv01.pkl','rb'))
+    forward_steps=out_size*int((dias_rango*144)/out_size)
     inputs=['Global','Direct','Temperatura','Humedad','azimuth','alturasolar']
-    model5=load_model(path+models)
-    predi4,targ4=Multioneshot(fecha1,fecha2,esoru,rango,out_size,in_size,istep,model5,inputs,scaler2=scaler3,scaler=scaler4,prep=1)
+    outputs=['Global']
+    model=load_model(path+models)
+    training_step=1
+    season_size=144
+    predi,targ=Multioneshot(esoru,forward_steps,out_size,in_size,istep,model,inputs,outputs,training_step,season_size,scalerx,scalery)
     nombres=['tiempo','Direct','Global','Difusa','Temperatura','Humedad','Presion','alturasolar','azimuth']
-    impesoru=exporta(val_data_archivo,predi4,istep,in_size,rango,nombres,sol_data_correction=True)
+    impesoru=seasonal_exporta(val_data_archivo,predi,istep,in_size,forward_steps,season_size,nombres,sol_data_correction=True)
     impesoru_target=importa(val_data_archivo,nombres)
     yearly,daily,hourly=dfmetricas(impesoru,impesoru_target,models)
     return (yearly,daily,hourly)
