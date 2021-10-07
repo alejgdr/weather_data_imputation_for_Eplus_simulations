@@ -40,7 +40,6 @@ def seasonal_pre_process(in_size,out_size,esoru,scalerx,scalery,inputs,outputs,t
      fecha2='2019-01-31'
      outna=esona[outputs]#[fecha1:fecha2]
      inpna=esona[inputs]#[fecha1:fecha2]
-     print(inpna)
      train_val_ratio=1#.9 #Qué porcentaje serán los datos de entrenamiento y validación 
      train_ratio=1#.8 #Qué porcentaje serán los datos de solo entrenamiento 
      
@@ -115,7 +114,9 @@ def dfmetricas(impesoru,impesoru_target,model_name):
     dfmindia=dfmingroup.groupby(pd.Grouper(level='minutodia',axis=0)).mean()
 
     dfmindia.loc[dfmindia.alturasolar<0,'mae']=np.nan
+    dfmindia.loc[dfmindia.alturasolar<0,'me']=np.nan
     meandiay=dfmindia.mae.mean()
+    mediay=dfmindia.me.mean()
     
     dfsamp2=dfrad.resample('D').sum() #this dataframe is used to get the difference of energy 
     dfsamp=dfrad.resample('D').mean()
@@ -128,13 +129,24 @@ def dfmetricas(impesoru,impesoru_target,model_name):
     #opci'on para que se el promedio anual del porcentaje de energ'ia diario
     dfsamp['mae_daily']=dfsamp['mae']
     #si mae_daily es igual a mae de d'ia promedio , entonces no hay ning'un problema'
+    dfsamp['E_d']=dfsamp2['Global']/6
+    dfsamp['Ep_d']=dfsamp2['prediccion']/6
+    dfsamp['DeltaE_d']=dfsamp2['me']/6
+    dfsamp['Delta_E_abs_d']=dfsamp2['mae']/6
+    dfsamp['porcentaje_mae']=(dfsamp['Delta_E_abs_d']/dfsamp['E_d'])*100
+    dfsamp['porcentaje_energia_daily']=dfsamp['DeltaE_d']/dfsamp['E_d']*100
+    dfsamp['porcentaje_absoluto_energia_daily']=dfsamp['Delta_E_abs_d']/dfsamp['E_d']*100
+    #opci'on para que se el promedio anual del porcentaje de energ'ia diario
+    dfsamp['mae_daily']=dfsamp['mae']
+    #si mae_daily es igual a mae de d'ia promedio , entonces no hay ning'un problema'
 
-    tablita=['model','dif_energia_wh','porcentaje_energia','porcentaje_mae','mae_de_día_promedio','mae_daily']
+    tablita=['model','DeltaE_d','porcentaje_energia_daily','me_dia_promedio','Delta_E_abs_d','porcentaje_absoluto_energia_daily','mae_de_día_promedio']
     
     dfsamp3=dfsamp.resample('Y').mean()
-    dfsamp3['dif_energia_wh']=-dfsamp3['energia_wh/m2']+dfsamp3['energia_predicha_wh/m2']
-    dfsamp3['porcentaje_energia']=dfsamp3['dif_energia_wh']/dfsamp3['energia_wh/m2']*100
+#     dfsamp3['dif_energia_wh']=-dfsamp3['energia_wh/m2']+dfsamp3['energia_predicha_wh/m2']
+#     dfsamp3['porcentaje_energia']=dfsamp3['dif_energia_wh']/dfsamp3['energia_wh/m2']*100
     dfsamp3['mae_de_día_promedio']=meandiay
+    dfsamp3['me_dia_promedio']=mediay
     dfsamp3['model']=model_name
     return(dfsamp3,dfsamp,dfrad)
 
