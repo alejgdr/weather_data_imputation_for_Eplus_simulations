@@ -101,7 +101,7 @@ def nightzero(df,archivo_nombre,save=True):
     df.loc[df.alturasolar<0,'Difusa']=0 
     dfcorr_noche=df[['Direct','Global','Difusa','Temperatura','Humedad','Presion']]
     if save==True:
-        dfcorr_noche.to_csv('../../01_Documentos/02_preprocessed/'+archivo_nombre)
+        dfcorr_noche.to_csv(archivo_nombre)
     return(dfcorr_noche)
 
 def dfmetricas(impesoru,impesoru_target,model_name):
@@ -114,9 +114,7 @@ def dfmetricas(impesoru,impesoru_target,model_name):
     dfmindia=dfmingroup.groupby(pd.Grouper(level='minutodia',axis=0)).mean()
 
     dfmindia.loc[dfmindia.alturasolar<0,'mae']=np.nan
-    dfmindia.loc[dfmindia.alturasolar<0,'me']=np.nan
     meandiay=dfmindia.mae.mean()
-    mediay=dfmindia.me.mean()
     
     dfsamp2=dfrad.resample('D').sum() #this dataframe is used to get the difference of energy 
     dfsamp=dfrad.resample('D').mean()
@@ -136,17 +134,18 @@ def dfmetricas(impesoru,impesoru_target,model_name):
     dfsamp['porcentaje_mae']=(dfsamp['Delta_E_abs_d']/dfsamp['E_d'])*100
     dfsamp['porcentaje_energia_daily']=dfsamp['DeltaE_d']/dfsamp['E_d']*100
     dfsamp['porcentaje_absoluto_energia_daily']=dfsamp['Delta_E_abs_d']/dfsamp['E_d']*100
+    dfsamp['E_dmape']=(np.abs(dfsamp['E_d']-dfsamp['Ep_d'])/dfsamp['E_d'])*100
+    dfsamp['E_dmae']=np.abs(dfsamp['E_d']-dfsamp['Ep_d'])
     #opci'on para que se el promedio anual del porcentaje de energ'ia diario
     dfsamp['mae_daily']=dfsamp['mae']
     #si mae_daily es igual a mae de d'ia promedio , entonces no hay ning'un problema'
 
-    tablita=['model','DeltaE_d','porcentaje_energia_daily','me_dia_promedio','Delta_E_abs_d','porcentaje_absoluto_energia_daily','mae_de_día_promedio']
+    tablita=['model','DeltaE_d','porcentaje_energia_daily','me_dia_promedio','Delta_E_abs_d','porcentaje_absoluto_energia_daily','mae_de_día_promedio','E_dmae','E_dmape']
     
     dfsamp3=dfsamp.resample('Y').mean()
 #     dfsamp3['dif_energia_wh']=-dfsamp3['energia_wh/m2']+dfsamp3['energia_predicha_wh/m2']
 #     dfsamp3['porcentaje_energia']=dfsamp3['dif_energia_wh']/dfsamp3['energia_wh/m2']*100
     dfsamp3['mae_de_día_promedio']=meandiay
-    dfsamp3['me_dia_promedio']=mediay
     dfsamp3['model']=model_name
     return(dfsamp3,dfsamp,dfrad)
 
