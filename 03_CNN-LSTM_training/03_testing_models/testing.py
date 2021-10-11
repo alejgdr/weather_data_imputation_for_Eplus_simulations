@@ -2,15 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sklearn as sk
 import numpy as np
-from tensorflow import keras
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-# from sklearn.model_selection import train_test_split
-# from tensorflow.keras.models import Model,Sequential
-# from tensorflow.keras.optimizers import SGD,Adam,Adamax
-# from tensorflow.keras.losses import MAPE,MSE
-# from tensorflow.keras import losses
-from tensorflow.keras.models import Model,Sequential,load_model
-from tensorflow.keras.metrics import MAPE,MAE,MeanAbsolutePercentageError,MeanSquaredError,RootMeanSquaredError
+from tensorflow.keras.models import load_model
 from datetime import datetime
 from pickle import load, dump
 
@@ -22,10 +14,7 @@ def importa(archivo,nombres):
  return(esoru)
 
 def seasonal_exporta(archivo,predi,istep,in_size,rango,season_size,nombres,sol_data_correction=False,save=False,archivo_nombre='imputados_corregidos.csv'): #Sustituye datos de entrada por datos predecidos
-     #nombres=['tiempo','Direct','Global','Difusa','Temperatura','Humedad','Viento','Presion','WDir_Avg','Rain_Tot']
      esoru=pd.read_csv(archivo,names=nombres,skiprows=1)
-     #esoru.tiempo=pd.to_datetime(esoru.tiempo,format='%Y-%m-%d %H:%M:%S')
-     #esoru.set_index('tiempo',inplace=True)
      esoru.Global.iloc[istep+season_size:istep+season_size+rango]=predi.copy() #agregar nueva columna 
      esoru.tiempo=pd.to_datetime(esoru.tiempo,format='%Y-%m-%d %H:%M:%S')
      esoru.set_index('tiempo',inplace=True)
@@ -104,82 +93,40 @@ def nightzero(df,archivo_nombre,save=True):
         dfcorr_noche.to_csv(archivo_nombre)
     return(dfcorr_noche)
 
-def dfmetricas(impesoru,impesoru_target,model_name):
+def dfmetricas(dfimp,impesoru_target,model_name):
     dfrad=impesoru_target.copy()
-    dfrad['prediccion']=impesoru.Global.copy().astype(float)
+    dfrad['prediccion']=dfimp.Global.copy().astype(float)
     dfrad['minutodia']=(dfrad.index.hour*60)+dfrad.index.minute
     dfrad['me']=(dfrad.prediccion-dfrad.Global).astype(float)
     dfrad['mae']=np.abs(dfrad.Global-dfrad.prediccion).astype(float)
     dfmingroup=dfrad.groupby(['minutodia',pd.Grouper(freq='1H')]).mean()
     dfmindia=dfmingroup.groupby(pd.Grouper(level='minutodia',axis=0)).mean()
-
     dfmindia.loc[dfmindia.alturasolar<0,'mae']=np.nan
     meandiay=dfmindia.mae.mean()
     
     dfsamp2=dfrad.resample('D').sum() #this dataframe is used to get the difference of energy 
     dfsamp=dfrad.resample('D').mean()
-    dfsamp['energia_wh/m2']=dfsamp2['Global']/6
-    dfsamp['energia_predicha_wh/m2']=dfsamp2['prediccion']/6
-    dfsamp['dif_energia_wh']=dfsamp2['me']/6
-    dfsamp['dif_energia_wh_mae']=dfsamp2['mae']/6
-    dfsamp['porcentaje_mae']=(dfsamp['dif_energia_wh_mae']/dfsamp['energia_wh/m2'])*100
-    dfsamp['porcentaje_energia_daily']=dfsamp['dif_energia_wh']/dfsamp['energia_wh/m2']*100
-    #opci'on para que se el promedio anual del porcentaje de energ'ia diario
-    dfsamp['mae_daily']=dfsamp['mae']
-    #si mae_daily es igual a mae de d'ia promedio , entonces no hay ning'un problema'
+    
     dfsamp['E_d']=dfsamp2['Global']/6
     dfsamp['Ep_d']=dfsamp2['prediccion']/6
-    dfsamp['DeltaE_d']=dfsamp2['me']/6
-    dfsamp['Delta_E_abs_d']=dfsamp2['mae']/6
-    dfsamp['porcentaje_mae']=(dfsamp['Delta_E_abs_d']/dfsamp['E_d'])*100
-    dfsamp['porcentaje_energia_daily']=dfsamp['DeltaE_d']/dfsamp['E_d']*100
-    dfsamp['porcentaje_absoluto_energia_daily']=dfsamp['Delta_E_abs_d']/dfsamp['E_d']*100
     dfsamp['E_dmape']=(np.abs(dfsamp['E_d']-dfsamp['Ep_d'])/dfsamp['E_d'])*100
     dfsamp['E_dmae']=np.abs(dfsamp['E_d']-dfsamp['Ep_d'])
-    #opci'on para que se el promedio anual del porcentaje de energ'ia diario
-    dfsamp['mae_daily']=dfsamp['mae']
-    #si mae_daily es igual a mae de d'ia promedio , entonces no hay ning'un problema'
 
-    tablita=['model','DeltaE_d','porcentaje_energia_daily','me_dia_promedio','Delta_E_abs_d','porcentaje_absoluto_energia_daily','mae_de_día_promedio','E_dmae','E_dmape']
-    
     dfsamp3=dfsamp.resample('Y').mean()
-#     dfsamp3['dif_energia_wh']=-dfsamp3['energia_wh/m2']+dfsamp3['energia_predicha_wh/m2']
-#     dfsamp3['porcentaje_energia']=dfsamp3['dif_energia_wh']/dfsamp3['energia_wh/m2']*100
-    dfsamp3['mae_de_día_promedio']=meandiay
+    dfsamp3['mae_Ig']=meandiay
     dfsamp3['model']=model_name
     return(dfsamp3,dfsamp,dfrad)
 
-def begin_table(infodf,cols_gen,path,nombre_archivo): #creates a new empty archive to store a dataframe, just use it once
+def begin_table(infodf,cols_gen,path,nombre_archivo,save=True): #creates a new empty archive to store a dataframe, just use it once
     df=infodf
-    df.to_csv(path+nombre_archivo)
+    if save==True:
+        df.to_csv(path+nombre_archivo)
     return(df)
 
-def actualizar_bitacora(infodf,cols_gen,path,nombre_archivo): #adds a new row on a predetermined dataframe 
+def actualizar_bitacora(infodf,cols_gen,path,nombre_archivo,save=True): #adds a new row on a predetermined dataframe 
     df=pd.read_csv(path+nombre_archivo)
-    #infodf=pd.DataFrame(data=info,columns=cols_gen)
     newdf=pd.concat([df,infodf])
     newdf=newdf.set_index('model')
-    newdf.to_csv(path+nombre_archivo)
-    return(pd.read_csv((path+nombre_archivo)))
-
-def metricsamples(path,models,in_size,val_data_archivo):
-    nombres1=['tiempo','Direct','Global','Difusa','Temperatura','Humedad','Presion','alturasolar','azimuth']
-    esoru=importa(val_data_archivo,nombres1)
-    out_size= 6 #model4
-    #in_size, out_size =72,18 #model3
-    dias_rango=363#350#=time_hor
-    istep=0#49400-288#6400 
-    scalery=load(open('../02_grid_training/03_scalers/y_scalerv01.pkl','rb'))
-    scalerx=load(open('../02_grid_training/03_scalers/x_scalerv01.pkl','rb'))
-    forward_steps=out_size*int((dias_rango*144)/out_size)
-    inputs=['Global','Direct','Temperatura','Humedad','azimuth','alturasolar']
-    outputs=['Global']
-    model=load_model(path+models)
-    training_step=1
-    season_size=144
-    predi,targ=Multioneshot(esoru,forward_steps,out_size,in_size,istep,model,inputs,outputs,training_step,season_size,scalerx,scalery)
-    nombres=['tiempo','Direct','Global','Difusa','Temperatura','Humedad','Presion','alturasolar','azimuth']
-    impesoru=seasonal_exporta(val_data_archivo,predi,istep,in_size,forward_steps,season_size,nombres,sol_data_correction=True)
-    impesoru_target=importa(val_data_archivo,nombres)
-    yearly,daily,hourly=dfmetricas(impesoru,impesoru_target,models)
-    return (yearly,daily,hourly)
+    if save==True:
+        newdf.to_csv(path+nombre_archivo)
+    return(newdf)
