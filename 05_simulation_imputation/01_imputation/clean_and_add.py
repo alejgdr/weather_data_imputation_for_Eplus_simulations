@@ -91,7 +91,7 @@ def nightzero_timeprep(df,saved_file='saved_file.csv',save=True,saving_path='../
     df.loc[df.alturasolar<0,'prediccion']=0
     df.loc[df.alturasolar<0,'Ig']=0
     df.loc[df.alturasolar<0,'Ib']=0
-    dfcorr_noche=df[['Ib','Ig','to','RH','P','alturasolar','azimuth']]
+    dfcorr_noche=df[['Ib','Ig','to','RH','P','WS','WD','alturasolar','azimuth']]
     if save==True:
         dfcorr_noche.to_csv(saving_path+saved_file)
     return(dfcorr_noche)

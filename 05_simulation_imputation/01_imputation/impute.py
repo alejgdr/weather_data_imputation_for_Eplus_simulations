@@ -23,9 +23,11 @@ def void_identifier(df,column): #Finds the ubication of data voids on dataframes
     isteps=[]
     datavoid=1
     datavoids=[]
+    idates=[]
     print('new_void_at:',nantmx.time[ind[0]])
     print('at index',ind[0])
     isteps.append(ind[0])
+    idates.append(nantmx.time[ind[0]])
     for x in range(0,len(ind)-1,1):
         if ind[x+1]-ind[x]>1:
             print(datavoid)
@@ -33,23 +35,21 @@ def void_identifier(df,column): #Finds the ubication of data voids on dataframes
             datavoid=1
             print('new_void_at:',nantmx.time[ind[x+1]])
             isteps.append(ind[x+1])
+            idates.append(nantmx.time[ind[x+1]])
             print('at index',ind[x+1])
         else:
             datavoid+=1
     datavoids.append(datavoid)
-    return(isteps,datavoids)
-def exporta(archivo,predi,istep,rango,nombres,path_exported_file='exported_data.csv',save=False): #Sustituye datos de entrada por datos predecidos
-     #nombres=['tiempo','Direct','Global','Difusa','Temperatura','Humedad','Viento','Presion','WDir_Avg','Rain_Tot']
+    return(isteps,datavoids,idates)
+def exporta(archivo,imputed_column,predi,istep,rango,nombres,path_exported_file='exported_data.csv',save=False):        
      esoru=pd.read_csv(archivo)
-     #esoru.tiempo=pd.to_datetime(esoru.tiempo,format='%Y-%m-%d %H:%M:%S')
-     #esoru.set_index('tiempo',inplace=True)
-     esoru.Ig.iloc[istep:istep+rango]=predi[:rango] #agregar nueva columna 
+     esoru[imputed_column].iloc[istep:istep+rango]=predi[:rango] #agregar nueva columna 
      esoru.time=pd.to_datetime(esoru.time,format='%Y-%m-%d %H:%M:%S')
      esoru.set_index('time',inplace=True)
      if (save==True):
         esoru.to_csv(path_exported_file)
      return(esoru)
-def seasonal_exporta(archivo,imputed_column,predi,istep,in_size,rango,season_size,nombres,sol_data_correction=False,save=False,archivo_nombre='imputados_corregidos.csv'): #Sustituye datos de entrada por datos predecidos
+def seasonal_exporta(archivo,imputed_column,predi,istep,rango,nombres,sol_data_correction=False,save=False,archivo_nombre='imputados_corregidos.csv'): #Sustituye datos de entrada por datos predecidos
      esoru=pd.read_csv(archivo,names=nombres,skiprows=1)
      diff=len(predi)-rango
      esoru.Ig.iloc[istep:istep+rango]=predi.copy()[:-diff] #agregar nueva columna 
@@ -88,7 +88,7 @@ def Multioneshot(esoru,forward_steps,out_size,in_size,istep,model,inputs,outputs
     output=[]
     target=[]
     for step in range (istep,istep+forward_steps,out_size):
-        pry=model.predict(x_array[step].reshape(1,in_size,6))
+        pry=model.predict(x_array[step].reshape(1,in_size,x_array.shape[2]))
         pry=scalery.inverse_transform(pry)
         tary=y_array[step]
         tary=scalery.inverse_transform(tary)
