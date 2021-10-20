@@ -8,7 +8,6 @@ from statsmodels.tsa.stattools import acf, pacf
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from time import time
 from dateutil.parser import parse
-<<<<<<< HEAD
 
 def exporta(archivo,imputed_column,predi,istep,rango,nombres,path_exported_file='exported_data.csv',save=False):        
      esoru=pd.read_csv(archivo)
@@ -19,9 +18,7 @@ def exporta(archivo,imputed_column,predi,istep,rango,nombres,path_exported_file=
         esoru.to_csv(path_exported_file)
      return(esoru)
 
-=======
 print('imported libraries')
->>>>>>> 2153dedb12be64678a7e12c41cb60f50587524bb
 fecha1=parse('2018-01-06')-pd.Timedelta('5D')
 fecha2=parse('2018-01-06')
 isteps=144*5
@@ -35,7 +32,7 @@ for day in range(365):
     train_data=tmx_inc.Ig.loc[fecha1:fecha2]
     train_data = train_data.asfreq(pd.infer_freq(train_data.index))
     my_order = (0,0,0)
-    my_seasonal_order =(0, 0, 0, 144) #(2, 0, 1, 144)
+    my_seasonal_order =(0, 1, 1, 144) #(2, 0, 1, 144)
     model = SARIMAX(train_data, order=my_order, seasonal_order=my_seasonal_order)
     start = time()
     model_fit = model.fit()
@@ -52,4 +49,4 @@ for day in range(365):
     fecha1=fecha1+pd.Timedelta('1D')
     fecha2=fecha2+pd.Timedelta('1D')
     print('fecha1:',fecha1)
-    print('fecha2:',fecha2)
+    print('imputed fecha2:',fecha2)
