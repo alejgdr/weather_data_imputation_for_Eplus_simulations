@@ -28,7 +28,7 @@ tmx_inc=pd.read_csv('../../01_weather_data/03_imputing_process/01_test_data/base
 path_imputed_file='../../01_weather_data/03_imputing_process/02_imputed_data/Tmx_SARIMA_0_1_1_multioneshot.csv'
 tmx_inc.to_csv(path_imputed_file)
 print('imported files starting imputation cycle')
-for day in range(365):
+for day in range(361):
     train_data=tmx_inc.Ig.loc[fecha1:fecha2]
     train_data = train_data.asfreq(pd.infer_freq(train_data.index))
     my_order = (0,0,0)
