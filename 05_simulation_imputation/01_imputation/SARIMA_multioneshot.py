@@ -8,7 +8,15 @@ from statsmodels.tsa.stattools import acf, pacf
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from time import time
 from dateutil.parser import parse
-import impute as imp
+
+def exporta(archivo,imputed_column,predi,istep,rango,nombres,path_exported_file='exported_data.csv',save=False):        
+     esoru=pd.read_csv(archivo)
+     esoru[imputed_column].iloc[istep:istep+rango]=predi[:rango] #agregar nueva columna 
+     esoru.time=pd.to_datetime(esoru.time,format='%Y-%m-%d %H:%M:%S')
+     esoru.set_index('time',inplace=True)
+     if (save==True):
+        esoru.to_csv(path_exported_file)
+     return(esoru)
 
 fecha1=parse('2018-01-06')-pd.Timedelta('5D')
 fecha2=parse('2018-01-06')
@@ -22,7 +30,7 @@ for day in range(365):
     train_data=tmx_inc.Ig.loc[fecha1:fecha2]
     train_data = train_data.asfreq(pd.infer_freq(train_data.index))
     my_order = (0,0,0)
-    my_seasonal_order =(0, 1, 1, 144) #(2, 0, 1, 144)
+    my_seasonal_order =(0, 0, 0, 144) #(2, 0, 1, 144)
     model = SARIMAX(train_data, order=my_order, seasonal_order=my_seasonal_order)
     start = time()
     model_fit = model.fit()
@@ -33,7 +41,7 @@ for day in range(365):
     predictions = np.array(predictions)
     nombres=['time','Ib','Ig','To','RH','WS','WD','P','Eg']
     #Lo meto en el archivo con los indices correspondientes
-    imputed=imp.exporta(path_imputed_file,'Ig',predictions,isteps,144,
+    imputed=exporta(path_imputed_file,'Ig',predictions,isteps,144,
                         nombres,path_exported_file=path_imputed_file,save=True)
     isteps=isteps+144
     fecha1=fecha1+pd.Timedelta('1D')
