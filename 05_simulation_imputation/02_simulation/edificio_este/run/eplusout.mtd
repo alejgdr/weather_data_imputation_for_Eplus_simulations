@@ -1,0 +1,780 @@
+
+ Meters for 34,N1AU401:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU401 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N1AU401 [J]
+
+ Meters for 95,N1AU401:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU401 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N1AU401 [J]
+
+ Meters for 122,N1AU402:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU402 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N1AU402 [J]
+
+ Meters for 147,N1AU402:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU402 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N1AU402 [J]
+
+ Meters for 162,N1AU403:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU403 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N1AU403 [J]
+
+ Meters for 187,N1AU403:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU403 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N1AU403 [J]
+
+ Meters for 202,N1AU404:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU404 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N1AU404 [J]
+
+ Meters for 227,N1AU404:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N1AU404 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N1AU404 [J]
+
+ Meters for 242,N2AU101:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU101 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2AU101 [J]
+
+ Meters for 267,N2AU101:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU101 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2AU101 [J]
+
+ Meters for 282,N2AU102:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU102 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2AU102 [J]
+
+ Meters for 307,N2AU102:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU102 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2AU102 [J]
+
+ Meters for 322,N2AU103:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU103 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2AU103 [J]
+
+ Meters for 347,N2AU103:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU103 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2AU103 [J]
+
+ Meters for 362,N2AU201:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU201 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2AU201 [J]
+
+ Meters for 387,N2AU201:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU201 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2AU201 [J]
+
+ Meters for 402,N2AU202:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU202 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2AU202 [J]
+
+ Meters for 427,N2AU202:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU202 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2AU202 [J]
+
+ Meters for 442,N2AU203:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU203 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2AU203 [J]
+
+ Meters for 467,N2AU203:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2AU203 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2AU203 [J]
+
+ Meters for 482,N2PASILLO:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2PASILLO [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2PASILLO [J]
+
+ Meters for 507,N2PASILLO:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2PASILLO [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2PASILLO [J]
+
+ Meters for 522,N2STR:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2STR [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:N2STR [J]
+
+ Meters for 547,N2STR:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:N2STR [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:N2STR [J]
+
+ Meters for 562,PBADM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBADM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBADM [J]
+
+ Meters for 587,PBADM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBADM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBADM [J]
+
+ Meters for 602,PBATENCIONCOFI:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBATENCIONCOFI [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBATENCIONCOFI [J]
+
+ Meters for 627,PBATENCIONCOFI:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBATENCIONCOFI [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBATENCIONCOFI [J]
+
+ Meters for 642,PBCOORCOFI:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBCOORCOFI [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBCOORCOFI [J]
+
+ Meters for 667,PBCOORCOFI:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBCOORCOFI [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBCOORCOFI [J]
+
+ Meters for 682,PBCOORDINACION:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBCOORDINACION [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBCOORDINACION [J]
+
+ Meters for 707,PBCOORDINACION:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBCOORDINACION [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBCOORDINACION [J]
+
+ Meters for 722,PBDUCTOCOFI:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBDUCTOCOFI [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBDUCTOCOFI [J]
+
+ Meters for 747,PBDUCTOCOFI:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBDUCTOCOFI [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBDUCTOCOFI [J]
+
+ Meters for 762,PBDUCTOSALAS:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBDUCTOSALAS [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBDUCTOSALAS [J]
+
+ Meters for 787,PBDUCTOSALAS:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBDUCTOSALAS [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBDUCTOSALAS [J]
+
+ Meters for 802,PBDUCTOSCOM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBDUCTOSCOM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBDUCTOSCOM [J]
+
+ Meters for 827,PBDUCTOSCOM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBDUCTOSCOM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBDUCTOSCOM [J]
+
+ Meters for 842,PBIMP:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBIMP [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBIMP [J]
+
+ Meters for 867,PBIMP:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBIMP [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBIMP [J]
+
+ Meters for 882,PBSCOM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSCOM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBSCOM [J]
+
+ Meters for 907,PBSCOM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSCOM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBSCOM [J]
+
+ Meters for 922,PBSJUNTAS:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSJUNTAS [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBSJUNTAS [J]
+
+ Meters for 947,PBSJUNTAS:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSJUNTAS [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBSJUNTAS [J]
+
+ Meters for 962,PBSMAESTROS:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSMAESTROS [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBSMAESTROS [J]
+
+ Meters for 987,PBSMAESTROS:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSMAESTROS [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBSMAESTROS [J]
+
+ Meters for 1002,PBSTR:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSTR [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBSTR [J]
+
+ Meters for 1027,PBSTR:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBSTR [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBSTR [J]
+
+ Meters for 1042,PBVESTIBULO:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBVESTIBULO [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBVESTIBULO [J]
+
+ Meters for 1067,PBVESTIBULO:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBVESTIBULO [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBVESTIBULO [J]
+
+ Meters for 1082,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1107,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1108,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  N1AU401:Zone Air System Sensible Heating Energy
+  N1AU401:Zone Air System Sensible Cooling Energy
+  N1AU402:Zone Air System Sensible Heating Energy
+  N1AU402:Zone Air System Sensible Cooling Energy
+  N1AU403:Zone Air System Sensible Heating Energy
+  N1AU403:Zone Air System Sensible Cooling Energy
+  N1AU404:Zone Air System Sensible Heating Energy
+  N1AU404:Zone Air System Sensible Cooling Energy
+  N2AU101:Zone Air System Sensible Heating Energy
+  N2AU101:Zone Air System Sensible Cooling Energy
+  N2AU102:Zone Air System Sensible Heating Energy
+  N2AU102:Zone Air System Sensible Cooling Energy
+  N2AU103:Zone Air System Sensible Heating Energy
+  N2AU103:Zone Air System Sensible Cooling Energy
+  N2AU201:Zone Air System Sensible Heating Energy
+  N2AU201:Zone Air System Sensible Cooling Energy
+  N2AU202:Zone Air System Sensible Heating Energy
+  N2AU202:Zone Air System Sensible Cooling Energy
+  N2AU203:Zone Air System Sensible Heating Energy
+  N2AU203:Zone Air System Sensible Cooling Energy
+  N2PASILLO:Zone Air System Sensible Heating Energy
+  N2PASILLO:Zone Air System Sensible Cooling Energy
+  N2STR:Zone Air System Sensible Heating Energy
+  N2STR:Zone Air System Sensible Cooling Energy
+  PBADM:Zone Air System Sensible Heating Energy
+  PBADM:Zone Air System Sensible Cooling Energy
+  PBATENCIONCOFI:Zone Air System Sensible Heating Energy
+  PBATENCIONCOFI:Zone Air System Sensible Cooling Energy
+  PBCOORCOFI:Zone Air System Sensible Heating Energy
+  PBCOORCOFI:Zone Air System Sensible Cooling Energy
+  PBCOORDINACION:Zone Air System Sensible Heating Energy
+  PBCOORDINACION:Zone Air System Sensible Cooling Energy
+  PBDUCTOCOFI:Zone Air System Sensible Heating Energy
+  PBDUCTOCOFI:Zone Air System Sensible Cooling Energy
+  PBDUCTOSALAS:Zone Air System Sensible Heating Energy
+  PBDUCTOSALAS:Zone Air System Sensible Cooling Energy
+  PBDUCTOSCOM:Zone Air System Sensible Heating Energy
+  PBDUCTOSCOM:Zone Air System Sensible Cooling Energy
+  PBIMP:Zone Air System Sensible Heating Energy
+  PBIMP:Zone Air System Sensible Cooling Energy
+  PBSCOM:Zone Air System Sensible Heating Energy
+  PBSCOM:Zone Air System Sensible Cooling Energy
+  PBSJUNTAS:Zone Air System Sensible Heating Energy
+  PBSJUNTAS:Zone Air System Sensible Cooling Energy
+  PBSMAESTROS:Zone Air System Sensible Heating Energy
+  PBSMAESTROS:Zone Air System Sensible Cooling Energy
+  PBSTR:Zone Air System Sensible Heating Energy
+  PBSTR:Zone Air System Sensible Cooling Energy
+  PBVESTIBULO:Zone Air System Sensible Heating Energy
+  PBVESTIBULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  N1AU401:Zone Air System Sensible Heating Energy
+  N1AU401:Zone Air System Sensible Cooling Energy
+  N1AU402:Zone Air System Sensible Heating Energy
+  N1AU402:Zone Air System Sensible Cooling Energy
+  N1AU403:Zone Air System Sensible Heating Energy
+  N1AU403:Zone Air System Sensible Cooling Energy
+  N1AU404:Zone Air System Sensible Heating Energy
+  N1AU404:Zone Air System Sensible Cooling Energy
+  N2AU101:Zone Air System Sensible Heating Energy
+  N2AU101:Zone Air System Sensible Cooling Energy
+  N2AU102:Zone Air System Sensible Heating Energy
+  N2AU102:Zone Air System Sensible Cooling Energy
+  N2AU103:Zone Air System Sensible Heating Energy
+  N2AU103:Zone Air System Sensible Cooling Energy
+  N2AU201:Zone Air System Sensible Heating Energy
+  N2AU201:Zone Air System Sensible Cooling Energy
+  N2AU202:Zone Air System Sensible Heating Energy
+  N2AU202:Zone Air System Sensible Cooling Energy
+  N2AU203:Zone Air System Sensible Heating Energy
+  N2AU203:Zone Air System Sensible Cooling Energy
+  N2PASILLO:Zone Air System Sensible Heating Energy
+  N2PASILLO:Zone Air System Sensible Cooling Energy
+  N2STR:Zone Air System Sensible Heating Energy
+  N2STR:Zone Air System Sensible Cooling Energy
+  PBADM:Zone Air System Sensible Heating Energy
+  PBADM:Zone Air System Sensible Cooling Energy
+  PBATENCIONCOFI:Zone Air System Sensible Heating Energy
+  PBATENCIONCOFI:Zone Air System Sensible Cooling Energy
+  PBCOORCOFI:Zone Air System Sensible Heating Energy
+  PBCOORCOFI:Zone Air System Sensible Cooling Energy
+  PBCOORDINACION:Zone Air System Sensible Heating Energy
+  PBCOORDINACION:Zone Air System Sensible Cooling Energy
+  PBDUCTOCOFI:Zone Air System Sensible Heating Energy
+  PBDUCTOCOFI:Zone Air System Sensible Cooling Energy
+  PBDUCTOSALAS:Zone Air System Sensible Heating Energy
+  PBDUCTOSALAS:Zone Air System Sensible Cooling Energy
+  PBDUCTOSCOM:Zone Air System Sensible Heating Energy
+  PBDUCTOSCOM:Zone Air System Sensible Cooling Energy
+  PBIMP:Zone Air System Sensible Heating Energy
+  PBIMP:Zone Air System Sensible Cooling Energy
+  PBSCOM:Zone Air System Sensible Heating Energy
+  PBSCOM:Zone Air System Sensible Cooling Energy
+  PBSJUNTAS:Zone Air System Sensible Heating Energy
+  PBSJUNTAS:Zone Air System Sensible Cooling Energy
+  PBSMAESTROS:Zone Air System Sensible Heating Energy
+  PBSMAESTROS:Zone Air System Sensible Cooling Energy
+  PBSTR:Zone Air System Sensible Heating Energy
+  PBSTR:Zone Air System Sensible Cooling Energy
+  PBVESTIBULO:Zone Air System Sensible Heating Energy
+  PBVESTIBULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N1AU401 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N1AU401:Zone Air System Sensible Heating Energy
+  N1AU401:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  N1AU401:Zone Air System Sensible Heating Energy
+  N1AU402:Zone Air System Sensible Heating Energy
+  N1AU403:Zone Air System Sensible Heating Energy
+  N1AU404:Zone Air System Sensible Heating Energy
+  N2AU101:Zone Air System Sensible Heating Energy
+  N2AU102:Zone Air System Sensible Heating Energy
+  N2AU103:Zone Air System Sensible Heating Energy
+  N2AU201:Zone Air System Sensible Heating Energy
+  N2AU202:Zone Air System Sensible Heating Energy
+  N2AU203:Zone Air System Sensible Heating Energy
+  N2PASILLO:Zone Air System Sensible Heating Energy
+  N2STR:Zone Air System Sensible Heating Energy
+  PBADM:Zone Air System Sensible Heating Energy
+  PBATENCIONCOFI:Zone Air System Sensible Heating Energy
+  PBCOORCOFI:Zone Air System Sensible Heating Energy
+  PBCOORDINACION:Zone Air System Sensible Heating Energy
+  PBDUCTOCOFI:Zone Air System Sensible Heating Energy
+  PBDUCTOSALAS:Zone Air System Sensible Heating Energy
+  PBDUCTOSCOM:Zone Air System Sensible Heating Energy
+  PBIMP:Zone Air System Sensible Heating Energy
+  PBSCOM:Zone Air System Sensible Heating Energy
+  PBSJUNTAS:Zone Air System Sensible Heating Energy
+  PBSMAESTROS:Zone Air System Sensible Heating Energy
+  PBSTR:Zone Air System Sensible Heating Energy
+  PBVESTIBULO:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N1AU401 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N1AU401:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  N1AU401:Zone Air System Sensible Cooling Energy
+  N1AU402:Zone Air System Sensible Cooling Energy
+  N1AU403:Zone Air System Sensible Cooling Energy
+  N1AU404:Zone Air System Sensible Cooling Energy
+  N2AU101:Zone Air System Sensible Cooling Energy
+  N2AU102:Zone Air System Sensible Cooling Energy
+  N2AU103:Zone Air System Sensible Cooling Energy
+  N2AU201:Zone Air System Sensible Cooling Energy
+  N2AU202:Zone Air System Sensible Cooling Energy
+  N2AU203:Zone Air System Sensible Cooling Energy
+  N2PASILLO:Zone Air System Sensible Cooling Energy
+  N2STR:Zone Air System Sensible Cooling Energy
+  PBADM:Zone Air System Sensible Cooling Energy
+  PBATENCIONCOFI:Zone Air System Sensible Cooling Energy
+  PBCOORCOFI:Zone Air System Sensible Cooling Energy
+  PBCOORDINACION:Zone Air System Sensible Cooling Energy
+  PBDUCTOCOFI:Zone Air System Sensible Cooling Energy
+  PBDUCTOSALAS:Zone Air System Sensible Cooling Energy
+  PBDUCTOSCOM:Zone Air System Sensible Cooling Energy
+  PBIMP:Zone Air System Sensible Cooling Energy
+  PBSCOM:Zone Air System Sensible Cooling Energy
+  PBSJUNTAS:Zone Air System Sensible Cooling Energy
+  PBSMAESTROS:Zone Air System Sensible Cooling Energy
+  PBSTR:Zone Air System Sensible Cooling Energy
+  PBVESTIBULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N1AU401 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N1AU401:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N1AU402 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N1AU402:Zone Air System Sensible Heating Energy
+  N1AU402:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N1AU402 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N1AU402:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N1AU402 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N1AU402:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N1AU403 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N1AU403:Zone Air System Sensible Heating Energy
+  N1AU403:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N1AU403 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N1AU403:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N1AU403 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N1AU403:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N1AU404 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N1AU404:Zone Air System Sensible Heating Energy
+  N1AU404:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N1AU404 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N1AU404:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N1AU404 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N1AU404:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2AU101 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2AU101:Zone Air System Sensible Heating Energy
+  N2AU101:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2AU101 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2AU101:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2AU101 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2AU101:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2AU102 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2AU102:Zone Air System Sensible Heating Energy
+  N2AU102:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2AU102 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2AU102:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2AU102 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2AU102:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2AU103 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2AU103:Zone Air System Sensible Heating Energy
+  N2AU103:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2AU103 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2AU103:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2AU103 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2AU103:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2AU201 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2AU201:Zone Air System Sensible Heating Energy
+  N2AU201:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2AU201 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2AU201:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2AU201 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2AU201:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2AU202 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2AU202:Zone Air System Sensible Heating Energy
+  N2AU202:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2AU202 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2AU202:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2AU202 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2AU202:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2AU203 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2AU203:Zone Air System Sensible Heating Energy
+  N2AU203:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2AU203 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2AU203:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2AU203 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2AU203:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2PASILLO [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2PASILLO:Zone Air System Sensible Heating Energy
+  N2PASILLO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2PASILLO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2PASILLO:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2PASILLO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2PASILLO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:N2STR [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  N2STR:Zone Air System Sensible Heating Energy
+  N2STR:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:N2STR [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  N2STR:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:N2STR [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  N2STR:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBADM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBADM:Zone Air System Sensible Heating Energy
+  PBADM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBADM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBADM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBADM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBADM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBATENCIONCOFI [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBATENCIONCOFI:Zone Air System Sensible Heating Energy
+  PBATENCIONCOFI:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBATENCIONCOFI [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBATENCIONCOFI:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBATENCIONCOFI [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBATENCIONCOFI:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBCOORCOFI [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBCOORCOFI:Zone Air System Sensible Heating Energy
+  PBCOORCOFI:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBCOORCOFI [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBCOORCOFI:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBCOORCOFI [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBCOORCOFI:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBCOORDINACION [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBCOORDINACION:Zone Air System Sensible Heating Energy
+  PBCOORDINACION:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBCOORDINACION [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBCOORDINACION:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBCOORDINACION [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBCOORDINACION:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBDUCTOCOFI [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBDUCTOCOFI:Zone Air System Sensible Heating Energy
+  PBDUCTOCOFI:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBDUCTOCOFI [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBDUCTOCOFI:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBDUCTOCOFI [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBDUCTOCOFI:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBDUCTOSALAS [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBDUCTOSALAS:Zone Air System Sensible Heating Energy
+  PBDUCTOSALAS:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBDUCTOSALAS [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBDUCTOSALAS:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBDUCTOSALAS [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBDUCTOSALAS:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBDUCTOSCOM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBDUCTOSCOM:Zone Air System Sensible Heating Energy
+  PBDUCTOSCOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBDUCTOSCOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBDUCTOSCOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBDUCTOSCOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBDUCTOSCOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBIMP [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBIMP:Zone Air System Sensible Heating Energy
+  PBIMP:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBIMP [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBIMP:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBIMP [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBIMP:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBSCOM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBSCOM:Zone Air System Sensible Heating Energy
+  PBSCOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBSCOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBSCOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBSCOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBSCOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBSJUNTAS [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBSJUNTAS:Zone Air System Sensible Heating Energy
+  PBSJUNTAS:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBSJUNTAS [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBSJUNTAS:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBSJUNTAS [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBSJUNTAS:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBSMAESTROS [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBSMAESTROS:Zone Air System Sensible Heating Energy
+  PBSMAESTROS:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBSMAESTROS [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBSMAESTROS:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBSMAESTROS [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBSMAESTROS:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBSTR [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBSTR:Zone Air System Sensible Heating Energy
+  PBSTR:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBSTR [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBSTR:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBSTR [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBSTR:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBVESTIBULO [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBVESTIBULO:Zone Air System Sensible Heating Energy
+  PBVESTIBULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBVESTIBULO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBVESTIBULO:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBVESTIBULO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBVESTIBULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
