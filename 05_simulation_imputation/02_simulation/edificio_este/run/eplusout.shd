@@ -1,0 +1,2771 @@
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=SHADING SURFACE 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=34
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401S
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 13
+..Surface=SHADING SURFACE 8
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 10 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 10 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=42
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 8
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 11 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 11 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=66
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU401O
+..Surface=AU401O 1
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 12 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=68
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 12 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 13 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 13 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=107
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 8
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=21
+..Surface=AU101O
+..Surface=AU101SL
+..Surface=AU101SR
+..Surface=AU101ST
+..Surface=AU102SL
+..Surface=AU102SR
+..Surface=AU102ST
+..Surface=AU103SL
+..Surface=AU103SR
+..Surface=AU103ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU4021N
+..Surface=AU201N
+..Surface=AU202N
+..Surface=AU203N
+..Surface=N2STRE 3
+..Surface=N2STRN
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=16
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU401O
+..Surface=AU401O 1
+..Surface=AU4021N
+..Surface=AU101O
+..Surface=AU201N
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU401O
+..Surface=AU401O 1
+..Surface=AU401SL
+..Surface=AU401SR
+..Surface=AU401ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=34
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU101O
+..Surface=AU101S
+..Surface=AU101SB
+..Surface=AU101SL
+..Surface=AU101SR
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=AU401N
+..Surface=AU401O
+..Surface=AU401O 1
+..Surface=AU401SL
+..Surface=AU401SR
+..Surface=AU401ST
+..Surface=AU4021N
+..Surface=AU402SL
+..Surface=AU402SR
+..Surface=AU402ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=14
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU4021N
+..Surface=AU403N
+..Surface=AU404N
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=AU201N
+..Surface=AU202N
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=24
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU4021N
+..Surface=AU403N
+..Surface=AU403P
+..Surface=AU404N
+..Surface=AU404P1
+..Surface=AU101P
+..Surface=AU102P
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=25
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401N
+..Surface=AU401O
+..Surface=AU401O 1
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 14 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 14 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=N2STRE 3
+..Surface=N2STRE 4
+..Surface=N2STRE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_AU401_N1_N
+==================================
+Surface=V2_AU401_N1_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401O is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401O 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401S is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU401_N1_S
+==================================
+Surface=V1_AU401_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=D1_AU401_N1_S
+==================================
+Surface=D1_AU401_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401P2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401P3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401P4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401T is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401T 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU401T1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU4021N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_AU402_N1_N
+==================================
+Surface=V2_AU402_N1_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402S 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU402_N1_S
+==================================
+Surface=V1_AU402_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=D1_AU402_N1_S
+==================================
+Surface=D1_AU402_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402P is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402P 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402P1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU4012T is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402T is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU402T1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=SHADING SURFACE 8
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_AU403_N1_N
+==================================
+Surface=V2_AU403_N1_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403S is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU403_N1_S
+==================================
+Surface=V1_AU403_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=D1_AU403_N1_S
+==================================
+Surface=D1_AU403_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403P is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 13
+..Surface=SHADING SURFACE 8
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403P1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403T is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403T1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU403T2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=SHADING SURFACE 8
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_AU404_N1_N
+==================================
+Surface=V2_AU404_N1_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404S is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU404_N1_S
+==================================
+Surface=V1_AU404_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=D1_AU404_N1_S
+==================================
+Surface=D1_AU404_N1_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU101P
+..Surface=AU102P
+..Surface=AU103P
+..Surface=N2STRP
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404P is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404P1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 13
+..Surface=SHADING SURFACE 8
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404P2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404T is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404T 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404T 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 14
+..Surface=N2STRE 3
+..Surface=N2STRE 4
+..Surface=N2STRE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU404T 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_AU101_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101O is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101S is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU101_N2_S
+==================================
+Surface=V1_AU101_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101P is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=AU401SL
+..Surface=AU401SR
+..Surface=AU401ST
+..Surface=AU402SL
+..Surface=AU402SR
+..Surface=AU402ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101P1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU101T is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_AU102_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102S is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU102_N2_S
+==================================
+Surface=V1_AU102_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102P is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=AU401SL
+..Surface=AU401SR
+..Surface=AU401ST
+..Surface=AU402SL
+..Surface=AU402SR
+..Surface=AU402ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102P1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU102T is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_AU103_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103S is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU103_N2_S
+==================================
+Surface=V1_AU103_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103SB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103SL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103SR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103ST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103P is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=AU401SL
+..Surface=AU401SR
+..Surface=AU401ST
+..Surface=AU402SL
+..Surface=AU402SR
+..Surface=AU402ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103P1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU103T is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU201E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU201N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU201_N2_N
+==================================
+Surface=V1_AU201_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU201O is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU201S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_AU201_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU201P is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU201T is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU202E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU202N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_AU202_N2_N
+==================================
+Surface=V2_AU202_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU202O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU202S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_AU202_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU202P is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU202T is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU203E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU203N is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_AU203_N2_N
+==================================
+Surface=V1_AU203_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU203O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU203S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_AU203_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU203P is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AU203T is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V1_PASILLO_N2_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLON is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D6_PASILLO_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLON1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D5_PASILLO_N2_N&#10 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLON2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D4_PASILLO_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUB SURFACE 34
+==================================
+Surface=SUB SURFACE 34 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOS is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D3_PASILLO_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOS1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D2_PASILLO_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOS2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_PASILLO_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOP1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOP2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PASILLOT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRE 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRE 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=N2STRE 4
+..Surface=N2STRE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRE 4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 14
+..Surface=N2STRE 3
+..Surface=N2STRE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=D1_STR_N2_E
+==================================
+Surface=D1_STR_N2_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRE 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 14
+..Surface=N2STRE 3
+..Surface=N2STRE 4
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRE 6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_STR_N2_N
+==================================
+Surface=V2_STR_N2_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRO 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V3_STR_N2_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRO1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_STR_N2_S
+==================================
+Surface=V1_STR_N2_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRSB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRSL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRSR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRP is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 11
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=AU401SL
+..Surface=AU401SR
+..Surface=AU401ST
+..Surface=AU402SL
+..Surface=AU402SR
+..Surface=AU402ST
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 6 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRT 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2STRT 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D2_ADMIN_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V3_ADMIN_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINE 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINE1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D3_ADMIN_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=V4_ADMIN_PB_N
+....Surface=V5_ADMIN_PB_N
+==================================
+Surface=V4_ADMIN_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V5_ADMIN_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINO 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINO1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINO1 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINO2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D4_ADMIN_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_ADMIN_PB_S
+==================================
+Surface=V2_ADMIN_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINS1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINS1 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_ADMIN_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V1_ADMIN_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=34
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401S
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINT1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ADMINT2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTERIOR PARTITION SURFACE 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTERIOR PARTITION SURFACE 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTERIOR PARTITION SURFACE 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTERIOR PARTITION SURFACE 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_ATENCIONCOFI_PB_E
+==================================
+Surface=V1_ATENCIONCOFI_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIE1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIS is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIS 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_ATENCIONCOFIS_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATENCIONCOFIT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTERIOR PARTITION SURFACE 5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTERIOR PARTITION SURFACE 6 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_COORCOFI_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_COORCOFI_PB_S
+==================================
+Surface=V1_COORCOFI_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFISB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFISL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFISR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORCOFIT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_COOR_PB_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_COOR_PB_N
+==================================
+Surface=V2_COOR_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORS is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V1_COOR_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORS 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COORT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIE 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIN 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V3_DUCTOCOFI_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=V1_DUCTOCOFI_PB_S
+....Surface=V2_DUCTOCOFI_PB_S
+==================================
+Surface=V1_DUCTOCOFI_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V2_DUCTOCOFI_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIP 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIP 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOFIT 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=34
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401S
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALASN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V2_DUCTOSALAS_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALASO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALASS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_DUCTOSALAS_PB_S
+==================================
+Surface=V1_DUCTOSALAS_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALASSE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALASP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALAST is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOSALAST 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=34
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401S
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTOE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTON is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTOO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTOS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU403P
+..Surface=AU404P1
+..Surface=AU101P
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTOS 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTOP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DUCTOCOMPUTOT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPN 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V2_IMP_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=42
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_IMP_PB_S
+==================================
+Surface=V1_IMP_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=35
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401S
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=IMPT1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V3_COMP_PB_N
+==================================
+Surface=V3_COMP_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU403P
+..Surface=AU404P1
+..Surface=AU101P
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_COMP_PB_S
+==================================
+Surface=V1_COMP_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPS1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V2_COMP_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=COMPT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTASE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTASN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_SJUNTAS_PB_N
+==================================
+Surface=V2_SJUNTAS_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTASO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_SJUNTAS_PB_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTASS is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V1_SJUNTAS_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTASS 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTASP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SJUNTAST is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_SMAESTRO_PB_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V2_SMAESTRO_PB_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_SMAESTRO_PB_S
+==================================
+Surface=V1_SMAESTRO_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSSB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSSR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROSP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SMAESTROST is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRE 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=20
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU403S
+..Surface=AU403SB
+..Surface=AU403SR
+..Surface=AU403ST
+..Surface=AU403P
+..Surface=AU404S
+..Surface=AU404SB
+..Surface=AU404SL
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTREP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRET is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-SHADING SURFACE 10
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V3_STR_PB_N
+==================================
+Surface=V3_STR_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRO 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRO1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_STR_PB_S
+==================================
+Surface=V1_STR_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRS1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=AU403P
+..Surface=AU404P1
+..Surface=AU101P
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_STR_PB_S
+==================================
+Surface=V2_STR_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRSB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRSR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=34
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 2
+..Surface=SHADING SURFACE 3
+..Surface=Mir-SHADING SURFACE 4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=SHADING SURFACE 7
+..Surface=Mir-SHADING SURFACE 9
+..Surface=Mir-SHADING SURFACE 14
+..Surface=AU401S
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PBSTRT 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULON1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D1_VESTIBULO_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=V3_VESTIBULO_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULON1 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D2_VESTIBULO_PB_N is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D3_VESTIBULO_PB_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V2_VESTIBULO_PB_S
+==================================
+Surface=V2_VESTIBULO_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOSB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOSL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=V1_VESTIBULO_PB_S
+==================================
+Surface=V1_VESTIBULO_PB_S is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOSTR is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 11
+..Surface=Mir-SHADING SURFACE 12
+..Surface=Mir-SHADING SURFACE 13
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOP is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VESTIBULOT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0

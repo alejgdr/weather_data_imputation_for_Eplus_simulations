@@ -6,10 +6,16 @@ from tensorflow.keras.models import load_model
 from datetime import datetime
 from pickle import load, dump
 
-def maxmin_season(dailydf,fecha1,fecha2): #identifies the days with the biggest and the lowest Eg on a dataframe
+# def maxmin_season(dailydf,fecha1,fecha2): #identifies the days with the biggest and the lowest Eg on a dataframe
+#     df=dailydf.loc[fecha1:fecha2]
+#     dfmax=df.Eg.idxmax()
+#     dfmin=df.Eg.idxmin()
+#     print('dia_maximo:',dfmax)
+#     print('dia_minimo:',dfmin) #without columns
+def maxmin_season(dailydf,column,fecha1,fecha2):
     df=dailydf.loc[fecha1:fecha2]
-    dfmax=df.Eg.idxmax()
-    dfmin=df.Eg.idxmin()
+    dfmax=df[column].idxmax()
+    dfmin=df[column].idxmin()
     print('dia_maximo:',dfmax)
     print('dia_minimo:',dfmin)
     

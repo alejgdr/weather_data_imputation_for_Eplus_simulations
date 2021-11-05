@@ -8355,10 +8355,10 @@ OS:Surface,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 1 {m}
-  0, 4.71, 0,                             !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 4.55;                             !- X,Y,Z Vertex 4 {m}
+  0, 0, 4.55,                             !- X,Y,Z Vertex 1 {m}
+  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 2 {m}
+  0, 4.71, 0,                             !- X,Y,Z Vertex 3 {m}
+  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {f8abb318-781e-4b14-a386-cf3b9c66f5f9}, !- Handle
@@ -10609,7 +10609,7 @@ OS:Material,
   0.7;                                    !- Visible Absorptance
 
 OS:WeatherFile,
-  {99414fbd-5b29-488d-8ce8-64026e4662f3}, !- Handle
+  {978ca1ad-5741-48ef-9c1a-6f9ba4eb1144}, !- Handle
   Temixco,                                !- City
   Morelos,                                !- State Province Region
   MEX,                                    !- Country
@@ -10619,6 +10619,6 @@ OS:WeatherFile,
   -99.14,                                 !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1280,                                   !- Elevation {m}
-  file:Temixco_2018_imputado_SARIMA_0_1_1_EPW.epw, !- Url
-  9DE8B75D;                               !- Checksum
+  file:Temixco_2018_cnn15Nov.epw,         !- Url
+  94BA585C;                               !- Checksum
 

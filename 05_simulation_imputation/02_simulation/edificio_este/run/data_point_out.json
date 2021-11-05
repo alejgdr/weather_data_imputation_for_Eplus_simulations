@@ -1,0 +1,14 @@
+{
+  "Site Outdoor Air Drybulb Temperature": {
+    "variable_name": "Site Outdoor Air Drybulb Temperature",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Zone Mean Air Temperature": {
+    "variable_name": "Zone Mean Air Temperature",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  }
+}
