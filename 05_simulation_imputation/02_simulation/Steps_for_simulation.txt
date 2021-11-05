@@ -1,0 +1,35 @@
+These are the steps you need to follow to make a simulation with the imputed data files.
+
+Step1: Transform the csv you imputed, so it can have the format needed to make an EPW.
+       For this, the only neccesary thing to do  is to run  the notebook on 
+       01_imputation/06_exporting_csv_for_epw.ipynb
+       Change the path of the variable 'imputed_file' and  of the 'to_epw_file'
+       
+Step 2: Building the .def file
+        On E+ documentation auxiliary programs> weather converter are some templates to the .def file
+        Or use a template you already have, and just modify the variables quantity and/or order, as well 
+        as their respective units.
+        Don't forget to name the .def file with the same name as the .csv file you want to epw.
+        
+Step 3: Building the epw
+        With  'Weather Statistics and Conversions' built in program from E+ (commonly on windows) it can 
+        the epw can be build only by selecting the csv from the files of your computer.
+            (In this case from 01_weather_data/03_imputing_process/03_to_EPWs)
+        And to output the EPW file on 01_weather_data/03_imputing_process/04_EPWs.
+ 
+Step 4: Simulation
+       Using the built EPW, simulate the desired building, it can be only on OpenStudio.
+       It's important to Select the year that you have originally in your weather file.
+       Be sure to report an exterior variable (Site Outdoor DryBulb Temperature, or Solar Radiation) 
+       so it can be verified that the EPW was created correctly.
+       
+Step 5: Data comparison and preprocessing for analysis 
+       In the notebook 05_simulation_imputation/03_simulation_analysis/01_simulation converter
+       Where it would be checked if the epw and original weather data are the same.
+       And you can change the name of the file so it can be registered as your base simulation
+       or imputed with x method simulation (variable-> exported_simulation_data)
+       Also this notebook changes the names of the columns so it is more managable on the analysis.
+       
+ 
+
+       
