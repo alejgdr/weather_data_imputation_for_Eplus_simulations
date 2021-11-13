@@ -10619,6 +10619,6 @@ OS:WeatherFile,
   -99.14,                                 !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1280,                                   !- Elevation {m}
-  file:Temixco_2018_cnn15Nov.epw,         !- Url
-  94BA585C;                               !- Checksum
+  file:temixo_2018_cnn_mae.epw,           !- Url
+  FF18906F;                               !- Checksum
 

@@ -10619,18 +10619,18 @@ OS:WeatherFile,
   -99.14,                                 !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1280,                                   !- Elevation {m}
-  file:///C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.q18520/resources/files/Temixco_2018_cnn15Nov.epw, !- Url
-  94BA585C;                               !- Checksum
+  file:///C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.Dq7004/resources/files/temixo_2018_cnn_mae.epw, !- Url
+  FF18906F;                               !- Checksum
 
 OS:Output:Variable,
-  {c8b9b164-bb62-4383-8791-59c9cc701d0f}, !- Handle
+  {43657dba-4e25-4842-ad2c-f4393f85c228}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Site Outdoor Air Drybulb Temperature,   !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {3d16e0cd-edc8-47c7-90f4-82e9ca001287}, !- Handle
+  {dd3ca9b8-a644-45db-8e33-8948c9f842ee}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
