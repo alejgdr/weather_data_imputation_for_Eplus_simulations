@@ -18,6 +18,7 @@ Step 3: Building the epw
         And to output the EPW file on 01_weather_data/03_imputing_process/04_EPWs.
  
 Step 4: Simulation
+       En 05_simulation_imputation/02_simulation...
        Using the built EPW, simulate the desired building, it can be only on OpenStudio.
        It's important to Select the year that you have originally in your weather file.
        Be sure to report an exterior variable (Site Outdoor DryBulb Temperature, or Solar Radiation) 
@@ -30,6 +31,10 @@ Step 5: Data comparison and preprocessing for analysis
        or imputed with x method simulation (variable-> exported_simulation_data)
        Also this notebook changes the names of the columns so it is more managable on the analysis.
        
- 
+Step 6: Analysis imputation 
+        In 05_simulation_imputation/03_simulation_analysis/02_simulation_metrics.ipynb
+        Stablish the exported csv from the previous step, 
+        If you changed the imputed days, you would have to recover them from the LSTMCNN_imputation.ipynb 
+        notebook and put them on a list from where the imputation is started.
 
        
