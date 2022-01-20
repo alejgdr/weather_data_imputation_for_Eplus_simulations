@@ -1,20 +1,20 @@
 {
-   "completed_at" : "20211113T210824Z",
+   "completed_at" : "20211124T185334Z",
    "completed_status" : "Success",
    "created_at" : "20211104T140124Z",
    "current_step" : 4,
-   "eplusout_err" : "Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.13 15:06,\n   ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.\n   **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** CheckUsedConstructions: There are 1 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** Output:Meter: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 5 unused schedules in input.\n   ************* There are 5 unused week schedules in input.\n   ************* There are 5 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 17 Warning; 0 Severe Errors; Elapsed Time=00hr 01min  3.12sec\n",
+   "eplusout_err" : "Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.24 12:52,\n   ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.\n   **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** CheckUsedConstructions: There are 1 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** Output:Meter: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 5 unused schedules in input.\n   ************* There are 5 unused week schedules in input.\n   ************* There are 5 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 17 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 30.12sec\n",
    "file_paths" : [
-      "C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.Dq7004/resources/generated_files",
+      "/private/var/folders/7n/c_cvng9j735c5pvm2v5k2tdh0000gp/T/OpenStudioApp.HI7643/resources/generated_files",
       "./files",
       "./weather",
       "../../files",
       "../../weather",
       "./"
    ],
-   "hash" : "557C424A",
+   "hash" : "A79D9582",
    "seed_file" : "../edificio_este.osm",
-   "started_at" : "20211113T210649Z",
+   "started_at" : "20211124T185247Z",
    "steps" : [
       {
          "arguments" : {
@@ -26,7 +26,7 @@
          "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
          "name" : "Site Outdoor Air Drybulb Temperature",
          "result" : {
-            "completed_at" : "20211113T210650Z",
+            "completed_at" : "20211124T185247Z",
             "measure_class_name" : "AddOutputVariable",
             "measure_display_name" : "Add Output Variable",
             "measure_name" : "add_output_variable",
@@ -36,7 +36,7 @@
             "measure_version_id" : "4a3ec2bc-75b6-4224-948f-ef727c4a31a3",
             "measure_version_modified" : "20180626T202311Z",
             "measure_xml_checksum" : "0CA4D54C",
-            "started_at" : "20211113T210650Z",
+            "started_at" : "20211124T185247Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
@@ -75,7 +75,7 @@
          "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
          "name" : "Zone Mean Air Temperature",
          "result" : {
-            "completed_at" : "20211113T210650Z",
+            "completed_at" : "20211124T185248Z",
             "measure_class_name" : "AddOutputVariable",
             "measure_display_name" : "Add Output Variable",
             "measure_name" : "add_output_variable",
@@ -85,7 +85,7 @@
             "measure_version_id" : "4a3ec2bc-75b6-4224-948f-ef727c4a31a3",
             "measure_version_modified" : "20180626T202311Z",
             "measure_xml_checksum" : "0CA4D54C",
-            "started_at" : "20211113T210650Z",
+            "started_at" : "20211124T185247Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
@@ -124,7 +124,7 @@
          "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
          "name" : "Site Outdoor Air Drybulb Temperature",
          "result" : {
-            "completed_at" : "20211113T210759Z",
+            "completed_at" : "20211124T185320Z",
             "measure_class_name" : "ExportVariabletoCSV",
             "measure_display_name" : "ExportVariabletoCSV",
             "measure_name" : "export_variableto_csv",
@@ -134,15 +134,15 @@
             "measure_version_id" : "dc4c324a-2472-45f1-a50d-623032318c8a",
             "measure_version_modified" : "20190313T213852Z",
             "measure_xml_checksum" : "58A298CD",
-            "started_at" : "20211113T210755Z",
+            "started_at" : "20211124T185318Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [
-               "C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.Dq7004/resources/run/002_ExportVariabletoCSV 1/report_SiteOutdoorAirDrybulbTemperature_ZoneTimestep.csv"
+               "/private/var/folders/7n/c_cvng9j735c5pvm2v5k2tdh0000gp/T/OpenStudioApp.HI7643/resources/run/002_ExportVariabletoCSV 1/report_SiteOutdoorAirDrybulbTemperature_ZoneTimestep.csv"
             ],
             "step_info" : [
-               "Output file written to C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.Dq7004/resources/run/002_ExportVariabletoCSV 1"
+               "Output file written to /private/var/folders/7n/c_cvng9j735c5pvm2v5k2tdh0000gp/T/OpenStudioApp.HI7643/resources/run/002_ExportVariabletoCSV 1"
             ],
             "step_result" : "Success",
             "step_values" : [
@@ -168,7 +168,7 @@
          "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
          "name" : "Zone Mean Air Temperature",
          "result" : {
-            "completed_at" : "20211113T210808Z",
+            "completed_at" : "20211124T185325Z",
             "measure_class_name" : "ExportVariabletoCSV",
             "measure_display_name" : "ExportVariabletoCSV",
             "measure_name" : "export_variableto_csv",
@@ -178,15 +178,15 @@
             "measure_version_id" : "dc4c324a-2472-45f1-a50d-623032318c8a",
             "measure_version_modified" : "20190313T213852Z",
             "measure_xml_checksum" : "58A298CD",
-            "started_at" : "20211113T210759Z",
+            "started_at" : "20211124T185321Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [
-               "C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.Dq7004/resources/run/003_ExportVariabletoCSV 1/report_ZoneMeanAirTemperature_ZoneTimestep.csv"
+               "/private/var/folders/7n/c_cvng9j735c5pvm2v5k2tdh0000gp/T/OpenStudioApp.HI7643/resources/run/003_ExportVariabletoCSV 1/report_ZoneMeanAirTemperature_ZoneTimestep.csv"
             ],
             "step_info" : [
-               "Output file written to C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.Dq7004/resources/run/003_ExportVariabletoCSV 1"
+               "Output file written to /private/var/folders/7n/c_cvng9j735c5pvm2v5k2tdh0000gp/T/OpenStudioApp.HI7643/resources/run/003_ExportVariabletoCSV 1"
             ],
             "step_result" : "Success",
             "step_values" : [
@@ -203,6 +203,6 @@
          }
       }
    ],
-   "updated_at" : "20211113T210824Z",
-   "weather_file" : "temixo_2018_cnn_mae.epw"
+   "updated_at" : "20211124T185334Z",
+   "weather_file" : "base_epw_adiabatic.epw"
 }

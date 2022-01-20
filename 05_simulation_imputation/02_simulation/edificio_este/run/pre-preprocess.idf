@@ -223,7 +223,7 @@ Shading:Building:Detailed,
   Shading Surface 10,                     !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  1.0538779855827e-032, 15.76, 4.68000000000001, !- X,Y,Z Vertex 1 {m}
+  1.0538779855827e-32, 15.76, 4.68000000000001, !- X,Y,Z Vertex 1 {m}
   0, 15.76, 0,                            !- X,Y,Z Vertex 2 {m}
   -8.1, 15.76, 0,                         !- X,Y,Z Vertex 3 {m}
   -8.1, 15.76, 4.68000000000001;          !- X,Y,Z Vertex 4 {m}
@@ -242,7 +242,7 @@ Shading:Building:Detailed,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   0, -1.19, 4.68000000000001,             !- X,Y,Z Vertex 1 {m}
-  1.0538779855827e-032, 15.76, 4.68000000000001, !- X,Y,Z Vertex 2 {m}
+  1.0538779855827e-32, 15.76, 4.68000000000001, !- X,Y,Z Vertex 2 {m}
   -8.1, 15.76, 4.68000000000001,          !- X,Y,Z Vertex 3 {m}
   -8.1, -1.19, 4.68000000000001;          !- X,Y,Z Vertex 4 {m}
 
@@ -259,7 +259,7 @@ Shading:Building:Detailed,
   Shading Surface 2,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  1.44382283906452e-015, -1.19, 13.78,    !- X,Y,Z Vertex 1 {m}
+  1.44382283906452e-15, -1.19, 13.78,     !- X,Y,Z Vertex 1 {m}
   0, 15.76, 13.78,                        !- X,Y,Z Vertex 2 {m}
   -8.1, 15.76, 13.78,                     !- X,Y,Z Vertex 3 {m}
   -8.1, -1.19, 13.78;                     !- X,Y,Z Vertex 4 {m}
@@ -269,16 +269,16 @@ Shading:Building:Detailed,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   0, 12.41, 13.78,                        !- X,Y,Z Vertex 1 {m}
-  1.0538779855827e-032, 12.41, 9.23000000000001, !- X,Y,Z Vertex 2 {m}
-  1.0538779855827e-032, 15.76, 9.23000000000001, !- X,Y,Z Vertex 3 {m}
-  -2.64510033005617e-049, 15.76, 13.78;   !- X,Y,Z Vertex 4 {m}
+  1.0538779855827e-32, 12.41, 9.23000000000001, !- X,Y,Z Vertex 2 {m}
+  1.0538779855827e-32, 15.76, 9.23000000000001, !- X,Y,Z Vertex 3 {m}
+  -2.64510033005617e-49, 15.76, 13.78;    !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 4,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   0, 15.76, 13.78,                        !- X,Y,Z Vertex 1 {m}
-  1.0538779855827e-032, 15.76, 9.23000000000001, !- X,Y,Z Vertex 2 {m}
+  1.0538779855827e-32, 15.76, 9.23000000000001, !- X,Y,Z Vertex 2 {m}
   -8.1, 15.76, 9.23000000000001,          !- X,Y,Z Vertex 3 {m}
   -8.1, 15.76, 13.78;                     !- X,Y,Z Vertex 4 {m}
 
@@ -296,7 +296,7 @@ Shading:Building:Detailed,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   0, -1.19, 9.23000000000001,             !- X,Y,Z Vertex 1 {m}
-  1.0538779855827e-032, 15.76, 9.23000000000001, !- X,Y,Z Vertex 2 {m}
+  1.0538779855827e-32, 15.76, 9.23000000000001, !- X,Y,Z Vertex 2 {m}
   -8.1, 15.76, 9.23000000000001,          !- X,Y,Z Vertex 3 {m}
   -8.1, -1.19, 9.23000000000001;          !- X,Y,Z Vertex 4 {m}
 
@@ -304,26 +304,26 @@ Shading:Building:Detailed,
   Shading Surface 7,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  1.0538779855827e-032, 12.41, 9.23000000000001, !- X,Y,Z Vertex 1 {m}
-  1.0538779855827e-032, 12.41, 4.68000000000001, !- X,Y,Z Vertex 2 {m}
-  1.0538779855827e-032, 15.76, 4.68000000000001, !- X,Y,Z Vertex 3 {m}
-  1.0538779855827e-032, 15.76, 9.23000000000001; !- X,Y,Z Vertex 4 {m}
+  1.0538779855827e-32, 12.41, 9.23000000000001, !- X,Y,Z Vertex 1 {m}
+  1.0538779855827e-32, 12.41, 4.68000000000001, !- X,Y,Z Vertex 2 {m}
+  1.0538779855827e-32, 15.76, 4.68000000000001, !- X,Y,Z Vertex 3 {m}
+  1.0538779855827e-32, 15.76, 9.23000000000001; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 8,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  1.0538779855827e-032, 12.41, 4.68000000000001, !- X,Y,Z Vertex 1 {m}
-  8.89824524846258e-048, 12.41, 0,        !- X,Y,Z Vertex 2 {m}
-  8.89824524846258e-048, 15.76, 0,        !- X,Y,Z Vertex 3 {m}
-  1.0538779855827e-032, 15.76, 4.68000000000001; !- X,Y,Z Vertex 4 {m}
+  1.0538779855827e-32, 12.41, 4.68000000000001, !- X,Y,Z Vertex 1 {m}
+  8.89824524846258e-48, 12.41, 0,         !- X,Y,Z Vertex 2 {m}
+  8.89824524846258e-48, 15.76, 0,         !- X,Y,Z Vertex 3 {m}
+  1.0538779855827e-32, 15.76, 4.68000000000001; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 9,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  1.0538779855827e-032, 15.76, 9.23000000000001, !- X,Y,Z Vertex 1 {m}
-  1.0538779855827e-032, 15.76, 4.68000000000001, !- X,Y,Z Vertex 2 {m}
+  1.0538779855827e-32, 15.76, 9.23000000000001, !- X,Y,Z Vertex 1 {m}
+  1.0538779855827e-32, 15.76, 4.68000000000001, !- X,Y,Z Vertex 2 {m}
   -8.1, 15.76, 4.68000000000001,          !- X,Y,Z Vertex 3 {m}
   -8.1, 15.76, 9.23000000000001;          !- X,Y,Z Vertex 4 {m}
 
@@ -339,7 +339,7 @@ Shading:Building:Detailed,
 Zone,
   N1Au401,                                !- Name
   -0,                                     !- Direction of Relative North {deg}
-  1.0538779855827e-032,                   !- X Origin {m}
+  1.0538779855827e-32,                    !- X Origin {m}
   2.38,                                   !- Y Origin {m}
   4.68000000000001,                       !- Z Origin {m}
   ,                                       !- Type
@@ -424,10 +424,10 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 4.55,                             !- X,Y,Z Vertex 1 {m}
-  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 2 {m}
-  0, 4.71, 0,                             !- X,Y,Z Vertex 3 {m}
-  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 1 {m}
+  0, 4.71, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 4.55;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Au401P2,                                !- Name
@@ -1452,7 +1452,7 @@ BuildingSurface:Detailed,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 4.55,                             !- X,Y,Z Vertex 1 {m}
-  5.77529135625809e-015, 2.105, 4.55,     !- X,Y,Z Vertex 2 {m}
+  5.77529135625809e-15, 2.105, 4.55,      !- X,Y,Z Vertex 2 {m}
   -1.25, 2.105, 4.55,                     !- X,Y,Z Vertex 3 {m}
   -1.25, 0, 4.55;                         !- X,Y,Z Vertex 4 {m}
 
@@ -1467,7 +1467,7 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  5.77529135625809e-015, 2.105, 4.55,     !- X,Y,Z Vertex 1 {m}
+  5.77529135625809e-15, 2.105, 4.55,      !- X,Y,Z Vertex 1 {m}
   0, 3.905, 4.55,                         !- X,Y,Z Vertex 2 {m}
   -1.25, 3.905, 4.55,                     !- X,Y,Z Vertex 3 {m}
   -1.25, 2.105, 4.55;                     !- X,Y,Z Vertex 4 {m}
@@ -3576,7 +3576,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 12.41, 0,                            !- X,Y,Z Vertex 1 {m}
@@ -3836,7 +3836,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   4.54, 4.19, 0,                          !- X,Y,Z Vertex 1 {m}
@@ -4004,7 +4004,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   3.44, 2.9, 0,                           !- X,Y,Z Vertex 1 {m}
@@ -4223,7 +4223,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   4.54, 5.32, 0,                          !- X,Y,Z Vertex 1 {m}
@@ -4243,7 +4243,7 @@ BuildingSurface:Detailed,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 4.68,                             !- X,Y,Z Vertex 1 {m}
-  1.43490114992039e-032, 0, 3.59,         !- X,Y,Z Vertex 2 {m}
+  1.43490114992039e-32, 0, 3.59,          !- X,Y,Z Vertex 2 {m}
   4.54, 0, 3.59,                          !- X,Y,Z Vertex 3 {m}
   4.54, 0, 4.68;                          !- X,Y,Z Vertex 4 {m}
 
@@ -4914,7 +4914,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   5.45, 3.05, 0,                          !- X,Y,Z Vertex 1 {m}
@@ -5070,7 +5070,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   8.07, 0, 0,                             !- X,Y,Z Vertex 1 {m}
@@ -5256,7 +5256,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 6.55, 0,                             !- X,Y,Z Vertex 1 {m}
@@ -5427,7 +5427,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   4.27, 0, 0,                             !- X,Y,Z Vertex 1 {m}
@@ -5663,7 +5663,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   3.01, 12.41, 0,                         !- X,Y,Z Vertex 1 {m}
@@ -5979,7 +5979,7 @@ BuildingSurface:Detailed,
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   4.31, 0, 0,                             !- X,Y,Z Vertex 1 {m}

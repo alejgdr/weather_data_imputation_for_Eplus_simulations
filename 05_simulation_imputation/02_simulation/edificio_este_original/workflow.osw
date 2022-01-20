@@ -1,0 +1,48 @@
+{
+   "created_at" : "20211215T223906Z",
+   "seed_file" : "../edificio_este_original.osm",
+   "steps" : [
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Outdoor Air Drybulb Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Outdoor Air Drybulb Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Mean Air Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Site Outdoor Air Drybulb Temperature"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "ExportVariabletoCSV",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Site Outdoor Air Drybulb Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "ExportVariabletoCSV",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Zone Mean Air Temperature"
+      }
+   ],
+   "updated_at" : "20211215T225133Z",
+   "weather_file" : "temixo_2018_cnn_mae.epw"
+}

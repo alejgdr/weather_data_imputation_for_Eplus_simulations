@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.13 15:06,
+Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.24 12:52,
    ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.
    **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
@@ -47,4 +47,4 @@ Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.13 15:06,
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 17 Warning; 0 Severe Errors; Elapsed Time=00hr 01min  3.12sec
+   ************* EnergyPlus Completed Successfully-- 17 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 30.12sec

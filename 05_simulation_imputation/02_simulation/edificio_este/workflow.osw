@@ -43,6 +43,6 @@
          "name" : "Zone Mean Air Temperature"
       }
    ],
-   "updated_at" : "20211113T210615Z",
-   "weather_file" : "temixo_2018_cnn_mae.epw"
+   "updated_at" : "20220109T172549Z",
+   "weather_file" : "base_epw_adiabatic.epw"
 }

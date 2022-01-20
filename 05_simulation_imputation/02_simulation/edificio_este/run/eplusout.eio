@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.13 15:06
+Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.11.24 12:52
 ! <Version>, Version ID
  Version, 9.2
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -153,31 +153,31 @@ Environment:WarmupDays,  6
 ! <Tabular Report>,Style,Unit Conversion
 Tabular Report,HTML,None
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,N1AU401,RunPeriod: RUN PERIOD 1,9.7438836455E-003,5.1587730123E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N1AU402,RunPeriod: RUN PERIOD 1,1.0940316873E-002,6.6971846430E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N1AU403,RunPeriod: RUN PERIOD 1,1.2231895400E-002,7.5487775581E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N1AU404,RunPeriod: RUN PERIOD 1,2.3775179289E-002,1.4398305687E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2AU101,RunPeriod: RUN PERIOD 1,1.2129762791E-002,1.0596826926E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2AU102,RunPeriod: RUN PERIOD 1,1.1118998264E-002,9.5520899088E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2AU103,RunPeriod: RUN PERIOD 1,1.1735188691E-002,1.0225727472E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2AU201,RunPeriod: RUN PERIOD 1,4.0572544641E-003,2.1960477055E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2AU202,RunPeriod: RUN PERIOD 1,1.9317715776E-003,1.5665549545E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2AU203,RunPeriod: RUN PERIOD 1,2.0403649049E-003,1.7384976817E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2PASILLO,RunPeriod: RUN PERIOD 1,8.9506702585E-004,5.2258977641E-004,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,N2STR,RunPeriod: RUN PERIOD 1,1.8235379597E-002,1.2487897904E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBADM,RunPeriod: RUN PERIOD 1,7.9418973868E-003,4.0381597359E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBATENCIONCOFI,RunPeriod: RUN PERIOD 1,7.3481029870E-003,4.2662109822E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBCOORCOFI,RunPeriod: RUN PERIOD 1,2.7281078713E-002,2.1294143188E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBCOORDINACION,RunPeriod: RUN PERIOD 1,1.0387458144E-002,5.3498667212E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBDUCTOCOFI,RunPeriod: RUN PERIOD 1,3.8508060845E-002,1.9517944157E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBDUCTOSALAS,RunPeriod: RUN PERIOD 1,4.2199216874E-002,2.2277896228E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBDUCTOSCOM,RunPeriod: RUN PERIOD 1,1.2357339056E-002,7.4773556845E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBIMP,RunPeriod: RUN PERIOD 1,2.4293842448E-002,1.0415175292E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBSCOM,RunPeriod: RUN PERIOD 1,2.5544599388E-002,1.5956677083E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBSJUNTAS,RunPeriod: RUN PERIOD 1,3.8591585247E-003,2.6491169013E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBSMAESTROS,RunPeriod: RUN PERIOD 1,2.1367061885E-002,1.7168661950E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBSTR,RunPeriod: RUN PERIOD 1,8.6807427805E-003,5.4487779392E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,PBVESTIBULO,RunPeriod: RUN PERIOD 1,3.9854148474E-002,3.2868651908E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N1AU401,RunPeriod: RUN PERIOD 1,9.7438836007E-003,5.1587729890E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N1AU402,RunPeriod: RUN PERIOD 1,1.0940316709E-002,6.6971845607E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N1AU403,RunPeriod: RUN PERIOD 1,1.2231895399E-002,7.5487775600E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N1AU404,RunPeriod: RUN PERIOD 1,2.3775179216E-002,1.4398305548E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2AU101,RunPeriod: RUN PERIOD 1,1.2129762543E-002,1.0596826860E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2AU102,RunPeriod: RUN PERIOD 1,1.1118998363E-002,9.5520897839E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2AU103,RunPeriod: RUN PERIOD 1,1.1735188583E-002,1.0225727627E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2AU201,RunPeriod: RUN PERIOD 1,4.0572544840E-003,2.1960477036E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2AU202,RunPeriod: RUN PERIOD 1,1.9317716201E-003,1.5665550222E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2AU203,RunPeriod: RUN PERIOD 1,2.0403649031E-003,1.7384977007E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2PASILLO,RunPeriod: RUN PERIOD 1,8.9506707495E-004,5.2258983358E-004,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,N2STR,RunPeriod: RUN PERIOD 1,1.8235379651E-002,1.2487897851E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBADM,RunPeriod: RUN PERIOD 1,7.9418973716E-003,4.0381597408E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBATENCIONCOFI,RunPeriod: RUN PERIOD 1,7.3481029733E-003,4.2662109621E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBCOORCOFI,RunPeriod: RUN PERIOD 1,2.7281078553E-002,2.1294143165E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBCOORDINACION,RunPeriod: RUN PERIOD 1,1.0387458137E-002,5.3498667169E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBDUCTOCOFI,RunPeriod: RUN PERIOD 1,3.8508060817E-002,1.9517944149E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBDUCTOSALAS,RunPeriod: RUN PERIOD 1,4.2199216835E-002,2.2277896190E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBDUCTOSCOM,RunPeriod: RUN PERIOD 1,1.2357339051E-002,7.4773556547E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBIMP,RunPeriod: RUN PERIOD 1,2.4293842419E-002,1.0415175311E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBSCOM,RunPeriod: RUN PERIOD 1,2.5544599344E-002,1.5956677081E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBSJUNTAS,RunPeriod: RUN PERIOD 1,3.8591584271E-003,2.6491168620E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBSMAESTROS,RunPeriod: RUN PERIOD 1,2.1367061897E-002,1.7168661891E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBSTR,RunPeriod: RUN PERIOD 1,8.6807427369E-003,5.4487779015E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PBVESTIBULO,RunPeriod: RUN PERIOD 1,3.9854148394E-002,3.2868651912E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data
