@@ -214,9 +214,9 @@ Shading:Building:Detailed,
   Shading Surface 1,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  0, -3.85202015365058e-16, 13.405,       !- X,Y,Z Vertex 1 {m}
+  0, -3.85202015365058e-016, 13.405,      !- X,Y,Z Vertex 1 {m}
   0, 12.41, 13.405,                       !- X,Y,Z Vertex 2 {m}
-  -7.39125, -1.92601007682529e-16, 13.405; !- X,Y,Z Vertex 3 {m}
+  -7.39125, -1.92601007682529e-016, 13.405; !- X,Y,Z Vertex 3 {m}
 
 Shading:Building:Detailed,
   Shading Surface 10,                     !- Name
@@ -231,10 +231,10 @@ Shading:Building:Detailed,
   Shading Surface 11,                     !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  36.9, -1.28499081913282e-15, 13.405,    !- X,Y,Z Vertex 1 {m}
+  36.9, -1.28499081913282e-015, 13.405,   !- X,Y,Z Vertex 1 {m}
   36.9, 12.92, 13.405,                    !- X,Y,Z Vertex 2 {m}
   32.3, 12.92, 13.405,                    !- X,Y,Z Vertex 3 {m}
-  32.3, 2.46694135579585e-31, 13.405;     !- X,Y,Z Vertex 4 {m}
+  32.3, 2.15023162878628e-031, 13.405;    !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 12,                     !- Name
@@ -242,7 +242,7 @@ Shading:Building:Detailed,
   ,                                       !- Number of Vertices
   0, 0, 8.85,                             !- X,Y,Z Vertex 1 {m}
   0, 12.41, 8.85,                         !- X,Y,Z Vertex 2 {m}
-  -7.39125, 3.07215118125639e-15, 8.85;   !- X,Y,Z Vertex 3 {m}
+  -7.39125, 3.07215118125639e-015, 8.85;  !- X,Y,Z Vertex 3 {m}
 
 Shading:Building:Detailed,
   Shading Surface 13,                     !- Name
@@ -250,8 +250,8 @@ Shading:Building:Detailed,
   ,                                       !- Number of Vertices
   0, 12.41, 13.405,                       !- X,Y,Z Vertex 1 {m}
   0, 12.41, 8.85,                         !- X,Y,Z Vertex 2 {m}
-  -7.39125, 3.07215118125639e-15, 8.85,   !- X,Y,Z Vertex 3 {m}
-  -7.39125, 2.76265004782136e-15, 13.405; !- X,Y,Z Vertex 4 {m}
+  -7.39125, 3.07215118125639e-015, 8.85,  !- X,Y,Z Vertex 3 {m}
+  -7.39125, 2.76265004782136e-015, 13.405; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 14,                     !- Name
@@ -260,7 +260,7 @@ Shading:Building:Detailed,
   0, 12.41, 4.3,                          !- X,Y,Z Vertex 1 {m}
   0, 12.41, 0,                            !- X,Y,Z Vertex 2 {m}
   -7.39125, 0, 0,                         !- X,Y,Z Vertex 3 {m}
-  -7.39125, 4.60610944279011e-15, 4.3;    !- X,Y,Z Vertex 4 {m}
+  -7.39125, 7.561360498294e-015, 4.3;     !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 15,                     !- Name
@@ -293,9 +293,9 @@ Shading:Building:Detailed,
   Shading Surface 4,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  0, 2.79690761054652e-15, 4.3,           !- X,Y,Z Vertex 1 {m}
+  0, 2.79690761054652e-015, 4.3,          !- X,Y,Z Vertex 1 {m}
   0, 12.41, 4.3,                          !- X,Y,Z Vertex 2 {m}
-  -7.39125, 4.60610944279011e-15, 4.3;    !- X,Y,Z Vertex 3 {m}
+  -7.39125, 4.60610944279011e-015, 4.3;   !- X,Y,Z Vertex 3 {m}
 
 Shading:Building:Detailed,
   Shading Surface 5,                      !- Name
@@ -311,8 +311,8 @@ Shading:Building:Detailed,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   21.22, 2.38, 4.68,                      !- X,Y,Z Vertex 1 {m}
-  21.22, 1.90907045441649e-16, 4.3,       !- X,Y,Z Vertex 2 {m}
-  26.85, 1.90907045441649e-16, 4.3,       !- X,Y,Z Vertex 3 {m}
+  21.22, 1.90907045441649e-016, 4.3,      !- X,Y,Z Vertex 2 {m}
+  26.85, 1.90907045441649e-016, 4.3,      !- X,Y,Z Vertex 3 {m}
   26.85, 2.38, 4.68;                      !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
@@ -321,14 +321,14 @@ Shading:Building:Detailed,
   ,                                       !- Number of Vertices
   0, 12.41, 8.85,                         !- X,Y,Z Vertex 1 {m}
   0, 12.41, 4.3,                          !- X,Y,Z Vertex 2 {m}
-  -7.39125, 4.60610944279011e-15, 4.3,    !- X,Y,Z Vertex 3 {m}
-  -7.39125, 3.07215118125639e-15, 8.85;   !- X,Y,Z Vertex 4 {m}
+  -7.39125, 4.60610944279011e-015, 4.3,   !- X,Y,Z Vertex 3 {m}
+  -7.39125, 3.07215118125639e-015, 8.85;  !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 8,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  36.9, -1.78015372596205e-16, 4.3,       !- X,Y,Z Vertex 1 {m}
+  36.9, -1.78015372596205e-016, 4.3,      !- X,Y,Z Vertex 1 {m}
   36.9, 12.92, 4.3,                       !- X,Y,Z Vertex 2 {m}
   32.3, 12.92, 4.3,                       !- X,Y,Z Vertex 3 {m}
   32.3, 0, 4.3;                           !- X,Y,Z Vertex 4 {m}
@@ -345,7 +345,7 @@ Shading:Building:Detailed,
 Zone,
   N1Au401,                                !- Name
   -0,                                     !- Direction of Relative North {deg}
-  1.0538779855827e-32,                    !- X Origin {m}
+  1.0538779855827e-032,                   !- X Origin {m}
   2.38,                                   !- Y Origin {m}
   4.68000000000001,                       !- Z Origin {m}
   ,                                       !- Type
@@ -430,10 +430,10 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 4.55,                             !- X,Y,Z Vertex 1 {m}
-  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 2 {m}
-  0, 4.71, 0,                             !- X,Y,Z Vertex 3 {m}
-  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 1 {m}
+  0, 4.71, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 4.55;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Au401P2,                                !- Name
@@ -1575,7 +1575,7 @@ BuildingSurface:Detailed,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 4.55,                             !- X,Y,Z Vertex 1 {m}
-  5.77529135625809e-15, 2.105, 4.55,      !- X,Y,Z Vertex 2 {m}
+  5.77529135625809e-015, 2.105, 4.55,     !- X,Y,Z Vertex 2 {m}
   -1.25, 2.105, 4.55,                     !- X,Y,Z Vertex 3 {m}
   -1.25, 0, 4.55;                         !- X,Y,Z Vertex 4 {m}
 
@@ -1590,7 +1590,7 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  5.77529135625809e-15, 2.105, 4.55,      !- X,Y,Z Vertex 1 {m}
+  5.77529135625809e-015, 2.105, 4.55,     !- X,Y,Z Vertex 1 {m}
   0, 3.905, 4.55,                         !- X,Y,Z Vertex 2 {m}
   -1.25, 3.905, 4.55,                     !- X,Y,Z Vertex 3 {m}
   -1.25, 2.105, 4.55;                     !- X,Y,Z Vertex 4 {m}
@@ -4809,7 +4809,7 @@ BuildingSurface:Detailed,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 4.68,                             !- X,Y,Z Vertex 1 {m}
-  1.43490114992039e-32, 0, 3.59,          !- X,Y,Z Vertex 2 {m}
+  1.43490114992039e-032, 0, 3.59,         !- X,Y,Z Vertex 2 {m}
   4.54, 0, 3.59,                          !- X,Y,Z Vertex 3 {m}
   4.54, 0, 4.68;                          !- X,Y,Z Vertex 4 {m}
 

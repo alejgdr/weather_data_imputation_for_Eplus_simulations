@@ -8321,10 +8321,10 @@ OS:Surface,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 4.55,                             !- X,Y,Z Vertex 1 {m}
-  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 2 {m}
-  0, 4.71, 0,                             !- X,Y,Z Vertex 3 {m}
-  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+  0, 4.71, 4.54999999999999,              !- X,Y,Z Vertex 1 {m}
+  0, 4.71, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 4.55;                             !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {f8abb318-781e-4b14-a386-cf3b9c66f5f9}, !- Handle
@@ -10525,8 +10525,8 @@ OS:ShadingSurface,
   ,                                       !- Number of Vertices
   4.6, -1.28499081913282e-15, -0.375000000000002, !- X,Y,Z Vertex 1 {m}
   4.60000000000001, 12.92, -0.375000000000003, !- X,Y,Z Vertex 2 {m}
-  1.18605497767061e-31, 12.92, -0.375000000000002, !- X,Y,Z Vertex 3 {m}
-  -2.07559621092355e-31, 2.46694135579585e-31, -0.375; !- X,Y,Z Vertex 4 {m}
+  1.92733933871474e-31, 12.92, -0.375000000000002, !- X,Y,Z Vertex 3 {m}
+  -2.9651374441765e-31, 2.15023162878628e-31, -0.375; !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurface,
   {6a442f28-9a36-497d-bc2a-2853d8c94595}, !- Handle
@@ -10561,7 +10561,7 @@ OS:ShadingSurface,
   -32.3, 12.41, -9.48,                    !- X,Y,Z Vertex 1 {m}
   -32.3, 12.41, -13.78,                   !- X,Y,Z Vertex 2 {m}
   -39.69125, 0, -13.78,                   !- X,Y,Z Vertex 3 {m}
-  -39.69125, 4.60610944279011e-15, -9.48; !- X,Y,Z Vertex 4 {m}
+  -39.69125, 7.561360498294e-15, -9.48;   !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurface,
   {070658ed-c13d-4926-835b-5b58cc4572b5}, !- Handle
@@ -12892,18 +12892,18 @@ OS:WeatherFile,
   -99.14,                                 !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1280,                                   !- Elevation {m}
-  file:///private/var/folders/7n/c_cvng9j735c5pvm2v5k2tdh0000gp/T/OpenStudioApp.TQ2452/resources/files/temixo_2018_cnn_mae.epw, !- Url
-  FF18906F;                               !- Checksum
+  file:///C:/Users/aguadarr/AppData/Local/Temp/OpenStudioApp.q10296/resources/files/imputed_46days.epw, !- Url
+  F8901FAB;                               !- Checksum
 
 OS:Output:Variable,
-  {d15a381e-8341-41f7-8680-0c5bc9e47707}, !- Handle
+  {6ce0f8fa-72ec-4fd0-bef0-93959190f1c4}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Site Outdoor Air Drybulb Temperature,   !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {f5d02350-93d3-4a72-bea0-f30d74326036}, !- Handle
+  {4af05a09-3b76-451f-98cb-34f204aeb21d}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name

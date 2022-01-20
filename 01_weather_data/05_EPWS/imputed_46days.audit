@@ -1,0 +1,1710 @@
+ -EnergyPlus Weather Converter V8.1.0.005
+ -Input File Type=CST, with FileName=D:\Users\aguadarr\Desktop\WPy64-3760\notebooks\weather_data_imputation_for_Eplus_simulations\01_weather_data\04_to_EPWs\imputed_46days.csv
+ -Out of Range Data items will NOT be corrected.
+ -***Definitions file=d:\users\aguadarr\desktop\wpy64-3760\notebooks\weather_data_imputation_for_eplus_simulations\01_weather_data\04_to_epws\imputed_46days.def
+ Def (Definitions) Location Processed Status
+ From Reading Definitions File, file=d:\users\aguadarr\desktop\wpy64-3760\notebooks\weather_data_imputation_for_eplus_simulations\01_weather_data\04_to_epws\imputed_46days.def
+ Location Latitude (InLat)	     18.85
+ Location Longitude (InLong)	    -99.14
+ Location Time Zone (InTime)	     -6.00
+ Location Elevation (InElev)	   1280.00
+ Location City (City)	Temixco                       
+ Location State/Province (StateProv)	Morelos             
+ Location Country (Country)	MEX                 
+ Def (Definitions) Weather Data Processed Status
+ From Reading Definitions File, file=d:\users\aguadarr\desktop\wpy64-3760\notebooks\weather_data_imputation_for_eplus_simulations\01_weather_data\04_to_epws\imputed_46days.def
+ Weather Data - Number Intervals per Hour	    6
+ Weather Data - Time Hour Offset	      0.00
+ Weather Data - Input File Type	custom    
+ Def (Definitions) Miscellaneous Data Processed Status
+ From Reading Definitions File, file=d:\users\aguadarr\desktop\wpy64-3760\notebooks\weather_data_imputation_for_eplus_simulations\01_weather_data\04_to_epws\imputed_46days.def
+ Misc Data - Comments 1	archivo generado por gbv a partir de datos de la esolmet y ruoa del 2018                                                                                                                                                                                                                                                                                                                                        
+ Misc Data - Comments 2	y usando datos del a~no tipico para sacar promedios de la Id                                                                                                                                                                                                                                                                                                                                                    
+ Misc Data - Source Data	esolmet y ruoa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+ Def (Definitions) Data Control Data Processed Status
+ Note: Data Control only used in "Custom" input formats
+ From Reading Definitions File, file=d:\users\aguadarr\desktop\wpy64-3760\notebooks\weather_data_imputation_for_eplus_simulations\01_weather_data\04_to_epws\imputed_46days.def
+ Data Control - # Records to Skip	    0
+ Data Control - Max # Records to Read	*****
+ -***Processing Definitions file(s) complete.
+ 
+Note ** Definitions taken from associated "def" file.
+ ** No WMO entered, no design conditions will be displayed.
+ Custom File Processing Details
+ Custom File, Number of Fields=	12
+ Delimited input, Delimiter Character=","
+ Input Name	Skip Field (t/f)	Used by EnergyPlus	Conversion Factor	Field (from) First Record (before conversion	minimum value	maximum value	missing value
+ year	F	n	1.000	[2018]	N/A	N/A	-999999.0
+ month	F	y	1.000	[1]	1	12	-999999.0
+ day	F	y	1.000	[1]	1	31	-999999.0
+ hour	F	y	1.000	[0]	0	24	-999999.0
+ minute	F	n	1.000	[10]	N/A	N/A	-999999.0
+ drybulb	F	y	1.000	[18.95]	>-70 C	<70 C	99.900
+ relhum	F	y	1.000	[35.29]	0 %	110 %	999.000
+ atmos pressure	F	y	1.000	[87876.37]	31000 Pa	120000 Pa	999999.0
+ glohorzrad	F	n	1.000	[0.0]	0 Wh/m2	1200 Wh/m2	9999.000
+ dirnorrad	F	y	1.000	[0.0]	0 Wh/m2	1100 Wh/m2	9999.000
+ winddir	F	y	1.000	[283.7]	0 deg	360 deg	999.000
+ windspd	F	y	1.000	[1.008]	0 m/s	40 m/s	999.000
+First read Hour number=0; Expected =1
+First read Hour number will be used as hour=1 and reported if not same for each day read in
+Warning ** Suspected missing data line after processing 1 days
+ Month=1 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 2 days
+ Month=1 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 3 days
+ Month=1 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 4 days
+ Month=1 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 5 days
+ Month=1 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 6 days
+ Month=1 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 7 days
+ Month=1 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 8 days
+ Month=1 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 9 days
+ Month=1 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 10 days
+ Month=1 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 11 days
+ Month=1 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 12 days
+ Month=1 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 13 days
+ Month=1 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 14 days
+ Month=1 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 15 days
+ Month=1 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 16 days
+ Month=1 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 17 days
+ Month=1 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 18 days
+ Month=1 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 19 days
+ Month=1 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 20 days
+ Month=1 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 21 days
+ Month=1 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 22 days
+ Month=1 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 23 days
+ Month=1 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 24 days
+ Month=1 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 25 days
+ Month=1 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 26 days
+ Month=1 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 27 days
+ Month=1 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 28 days
+ Month=1 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 29 days
+ Month=1 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 30 days
+ Month=1 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 31 days
+ Month=1 Day=31 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 32 days
+ Month=2 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 33 days
+ Month=2 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 34 days
+ Month=2 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 35 days
+ Month=2 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 36 days
+ Month=2 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 37 days
+ Month=2 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 38 days
+ Month=2 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 39 days
+ Month=2 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 40 days
+ Month=2 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 41 days
+ Month=2 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 42 days
+ Month=2 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 43 days
+ Month=2 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 44 days
+ Month=2 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 45 days
+ Month=2 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 46 days
+ Month=2 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 47 days
+ Month=2 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 48 days
+ Month=2 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 49 days
+ Month=2 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 50 days
+ Month=2 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 51 days
+ Month=2 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 52 days
+ Month=2 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 53 days
+ Month=2 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 54 days
+ Month=2 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 55 days
+ Month=2 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 56 days
+ Month=2 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 57 days
+ Month=2 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 58 days
+ Month=2 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 59 days
+ Month=2 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 60 days
+ Month=3 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 61 days
+ Month=3 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 62 days
+ Month=3 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 63 days
+ Month=3 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 64 days
+ Month=3 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 65 days
+ Month=3 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 66 days
+ Month=3 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 67 days
+ Month=3 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 68 days
+ Month=3 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 69 days
+ Month=3 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 70 days
+ Month=3 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 71 days
+ Month=3 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 72 days
+ Month=3 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 73 days
+ Month=3 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 74 days
+ Month=3 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 75 days
+ Month=3 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 76 days
+ Month=3 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 77 days
+ Month=3 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 78 days
+ Month=3 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 79 days
+ Month=3 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 80 days
+ Month=3 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 81 days
+ Month=3 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 82 days
+ Month=3 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 83 days
+ Month=3 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 84 days
+ Month=3 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 85 days
+ Month=3 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 86 days
+ Month=3 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 87 days
+ Month=3 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 88 days
+ Month=3 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 89 days
+ Month=3 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 90 days
+ Month=3 Day=31 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 91 days
+ Month=4 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 92 days
+ Month=4 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 93 days
+ Month=4 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 94 days
+ Month=4 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 95 days
+ Month=4 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 96 days
+ Month=4 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 97 days
+ Month=4 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 98 days
+ Month=4 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 99 days
+ Month=4 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 100 days
+ Month=4 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 101 days
+ Month=4 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 102 days
+ Month=4 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 103 days
+ Month=4 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 104 days
+ Month=4 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 105 days
+ Month=4 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 106 days
+ Month=4 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 107 days
+ Month=4 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 108 days
+ Month=4 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 109 days
+ Month=4 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 110 days
+ Month=4 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 111 days
+ Month=4 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 112 days
+ Month=4 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 113 days
+ Month=4 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 114 days
+ Month=4 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 115 days
+ Month=4 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 116 days
+ Month=4 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 117 days
+ Month=4 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 118 days
+ Month=4 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 119 days
+ Month=4 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 120 days
+ Month=4 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 121 days
+ Month=5 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 122 days
+ Month=5 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 123 days
+ Month=5 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 124 days
+ Month=5 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 125 days
+ Month=5 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 126 days
+ Month=5 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 127 days
+ Month=5 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 128 days
+ Month=5 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 129 days
+ Month=5 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 130 days
+ Month=5 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 131 days
+ Month=5 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 132 days
+ Month=5 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 133 days
+ Month=5 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 134 days
+ Month=5 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 135 days
+ Month=5 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 136 days
+ Month=5 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 137 days
+ Month=5 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 138 days
+ Month=5 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 139 days
+ Month=5 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 140 days
+ Month=5 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 141 days
+ Month=5 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 142 days
+ Month=5 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 143 days
+ Month=5 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 144 days
+ Month=5 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 145 days
+ Month=5 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 146 days
+ Month=5 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 147 days
+ Month=5 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 148 days
+ Month=5 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 149 days
+ Month=5 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 150 days
+ Month=5 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 151 days
+ Month=5 Day=31 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 152 days
+ Month=6 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 153 days
+ Month=6 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 154 days
+ Month=6 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 155 days
+ Month=6 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 156 days
+ Month=6 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 157 days
+ Month=6 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 158 days
+ Month=6 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 159 days
+ Month=6 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 160 days
+ Month=6 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 161 days
+ Month=6 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 162 days
+ Month=6 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 163 days
+ Month=6 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 164 days
+ Month=6 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 165 days
+ Month=6 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 166 days
+ Month=6 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 167 days
+ Month=6 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 168 days
+ Month=6 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 169 days
+ Month=6 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 170 days
+ Month=6 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 171 days
+ Month=6 Day=20 Hour=1
+ Processing continues but may be in error
+ Warning ** Global Horizontal Radiation=  1246.0 Wh/m² on date= 6/20 at hour=14
+Warning ** Suspected missing data line after processing 172 days
+ Month=6 Day=21 Hour=1
+ Processing continues but may be in error
+ Warning ** Global Horizontal Radiation=  1348.0 Wh/m² on date= 6/21 at hour=13
+ Warning ** Global Horizontal Radiation=  1205.0 Wh/m² on date= 6/21 at hour=13
+Warning ** Suspected missing data line after processing 173 days
+ Month=6 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 174 days
+ Month=6 Day=23 Hour=1
+ Processing continues but may be in error
+ Warning ** Global Horizontal Radiation=  1201.0 Wh/m² on date= 6/23 at hour=14
+ Warning ** Global Horizontal Radiation=  1257.0 Wh/m² on date= 6/23 at hour=14
+Warning ** Suspected missing data line after processing 175 days
+ Month=6 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 176 days
+ Month=6 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 177 days
+ Month=6 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 178 days
+ Month=6 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 179 days
+ Month=6 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 180 days
+ Month=6 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 181 days
+ Month=6 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 182 days
+ Month=7 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 183 days
+ Month=7 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 184 days
+ Month=7 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 185 days
+ Month=7 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 186 days
+ Month=7 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 187 days
+ Month=7 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 188 days
+ Month=7 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 189 days
+ Month=7 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 190 days
+ Month=7 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 191 days
+ Month=7 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 192 days
+ Month=7 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 193 days
+ Month=7 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 194 days
+ Month=7 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 195 days
+ Month=7 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 196 days
+ Month=7 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 197 days
+ Month=7 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 198 days
+ Month=7 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 199 days
+ Month=7 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 200 days
+ Month=7 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 201 days
+ Month=7 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 202 days
+ Month=7 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 203 days
+ Month=7 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 204 days
+ Month=7 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 205 days
+ Month=7 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 206 days
+ Month=7 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 207 days
+ Month=7 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 208 days
+ Month=7 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 209 days
+ Month=7 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 210 days
+ Month=7 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 211 days
+ Month=7 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 212 days
+ Month=7 Day=31 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 213 days
+ Month=8 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 214 days
+ Month=8 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 215 days
+ Month=8 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 216 days
+ Month=8 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 217 days
+ Month=8 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 218 days
+ Month=8 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 219 days
+ Month=8 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 220 days
+ Month=8 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 221 days
+ Month=8 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 222 days
+ Month=8 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 223 days
+ Month=8 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 224 days
+ Month=8 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 225 days
+ Month=8 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 226 days
+ Month=8 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 227 days
+ Month=8 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 228 days
+ Month=8 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 229 days
+ Month=8 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 230 days
+ Month=8 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 231 days
+ Month=8 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 232 days
+ Month=8 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 233 days
+ Month=8 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 234 days
+ Month=8 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 235 days
+ Month=8 Day=23 Hour=1
+ Processing continues but may be in error
+ Warning ** Global Horizontal Radiation=  1204.0 Wh/m² on date= 8/23 at hour=13
+Warning ** Suspected missing data line after processing 236 days
+ Month=8 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 237 days
+ Month=8 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 238 days
+ Month=8 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 239 days
+ Month=8 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 240 days
+ Month=8 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 241 days
+ Month=8 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 242 days
+ Month=8 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 243 days
+ Month=8 Day=31 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 244 days
+ Month=9 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 245 days
+ Month=9 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 246 days
+ Month=9 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 247 days
+ Month=9 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 248 days
+ Month=9 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 249 days
+ Month=9 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 250 days
+ Month=9 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 251 days
+ Month=9 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 252 days
+ Month=9 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 253 days
+ Month=9 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 254 days
+ Month=9 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 255 days
+ Month=9 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 256 days
+ Month=9 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 257 days
+ Month=9 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 258 days
+ Month=9 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 259 days
+ Month=9 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 260 days
+ Month=9 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 261 days
+ Month=9 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 262 days
+ Month=9 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 263 days
+ Month=9 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 264 days
+ Month=9 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 265 days
+ Month=9 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 266 days
+ Month=9 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 267 days
+ Month=9 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 268 days
+ Month=9 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 269 days
+ Month=9 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 270 days
+ Month=9 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 271 days
+ Month=9 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 272 days
+ Month=9 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 273 days
+ Month=9 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 274 days
+ Month=10 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 275 days
+ Month=10 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 276 days
+ Month=10 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 277 days
+ Month=10 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 278 days
+ Month=10 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 279 days
+ Month=10 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 280 days
+ Month=10 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 281 days
+ Month=10 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 282 days
+ Month=10 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 283 days
+ Month=10 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 284 days
+ Month=10 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 285 days
+ Month=10 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 286 days
+ Month=10 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 287 days
+ Month=10 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 288 days
+ Month=10 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 289 days
+ Month=10 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 290 days
+ Month=10 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 291 days
+ Month=10 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 292 days
+ Month=10 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 293 days
+ Month=10 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 294 days
+ Month=10 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 295 days
+ Month=10 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 296 days
+ Month=10 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 297 days
+ Month=10 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 298 days
+ Month=10 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 299 days
+ Month=10 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 300 days
+ Month=10 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 301 days
+ Month=10 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 302 days
+ Month=10 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 303 days
+ Month=10 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 304 days
+ Month=10 Day=31 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 305 days
+ Month=11 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 306 days
+ Month=11 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 307 days
+ Month=11 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 308 days
+ Month=11 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 309 days
+ Month=11 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 310 days
+ Month=11 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 311 days
+ Month=11 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 312 days
+ Month=11 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 313 days
+ Month=11 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 314 days
+ Month=11 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 315 days
+ Month=11 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 316 days
+ Month=11 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 317 days
+ Month=11 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 318 days
+ Month=11 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 319 days
+ Month=11 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 320 days
+ Month=11 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 321 days
+ Month=11 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 322 days
+ Month=11 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 323 days
+ Month=11 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 324 days
+ Month=11 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 325 days
+ Month=11 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 326 days
+ Month=11 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 327 days
+ Month=11 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 328 days
+ Month=11 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 329 days
+ Month=11 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 330 days
+ Month=11 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 331 days
+ Month=11 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 332 days
+ Month=11 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 333 days
+ Month=11 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 334 days
+ Month=11 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 335 days
+ Month=12 Day=1 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 336 days
+ Month=12 Day=2 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 337 days
+ Month=12 Day=3 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 338 days
+ Month=12 Day=4 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 339 days
+ Month=12 Day=5 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 340 days
+ Month=12 Day=6 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 341 days
+ Month=12 Day=7 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 342 days
+ Month=12 Day=8 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 343 days
+ Month=12 Day=9 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 344 days
+ Month=12 Day=10 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 345 days
+ Month=12 Day=11 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 346 days
+ Month=12 Day=12 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 347 days
+ Month=12 Day=13 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 348 days
+ Month=12 Day=14 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 349 days
+ Month=12 Day=15 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 350 days
+ Month=12 Day=16 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 351 days
+ Month=12 Day=17 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 352 days
+ Month=12 Day=18 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 353 days
+ Month=12 Day=19 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 354 days
+ Month=12 Day=20 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 355 days
+ Month=12 Day=21 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 356 days
+ Month=12 Day=22 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 357 days
+ Month=12 Day=23 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 358 days
+ Month=12 Day=24 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 359 days
+ Month=12 Day=25 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 360 days
+ Month=12 Day=26 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 361 days
+ Month=12 Day=27 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 362 days
+ Month=12 Day=28 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 363 days
+ Month=12 Day=29 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 364 days
+ Month=12 Day=30 Hour=1
+ Processing continues but may be in error
+Warning ** Suspected missing data line after processing 365 days
+ Month=12 Day=31 Hour=1
+ Processing continues but may be in error
+ Warning ** Missing Data Found on Source Weather Data File
+ ** Missing Diffuse Normal Radiation, Number of items=52559
+ ** Missing (and corrected) Dew Point Temperatures, Number of items=52559
+ ** Missing (and corrected) Aerosol Optical Depth, Number of items=52559
+ ** Missing (and corrected) Total Sky Cover, Number of items=52559
+ ** Missing (and corrected) Opaque Sky Cover, Number of items=52559
+ ** Missing (and corrected) Water Precipitation, Number of items=52559
+ ** Missing (and corrected) Snow Depth, Number of items=52559
+ ** Missing (and corrected) Days Since Last Snow, Number of items=52559
+ ** Missing (and corrected) Albedo, Number of items=52559
+ ** Missing (and corrected) Liquid Precip Depth, Number of items=52559
+
+
+
+ - Start Date/End Date for Weather Source
+ Start Date=Jan  1; End Date=Dec 31
+ Severe ** Number of Records read may not add up to full number of days
+ Number Hours Read=  0.00; Should be= 8760
+
+ - Actual Data Years for Monthly Data**
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	         	 2018	 2018	 2018	 2018	 2018	 2018	 2018	 2018	 2018	 2018	 2018	 2018	
+ - ** Not all weather data sources represent contiguous years.
+ - ** Monthly data values may come from different years.
+
+ - Days per Month for Monthly Data**
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	           	 31	 28	 31	 30	 31	 30	 31	 31	 30	 31	 30	 31	
+ - ** Number of days per month seems okay.
+
+ - Data Sources should be checked for relevancy to these statistics.
+
+ Average Delta DB Change=  0.31°C ; Std Dev=  0.32°C
+ Average Delta DP Change=  0.27°C ; Std Dev=  0.32°C
+ Average Delta Relative Humidity Change=  1.19% ; Std Dev=  1.36%
+ Average Delta Wind Speed Change=  0.64m/s ; Std Dev=  0.60m/s
+ Step-wise Dry Bulb temperature change trigger = minimum of   4.73°C  and  10.°C
+      4.73°C = calculated trigger based on mean change in dry-bulb temperature and standard deviation shown above
+     10.°C = trigger set by user
+
+ Changes indicated in delta temperatures, details follow.
+ *****
+ - Delta DB/DP Range Triggered for Mar 21
+ - Change in DP= -5.38°C, Hour=22 Interval= 3
+ - Change in DP=  9.59°C, Hour=24 Interval= 6
+ *****
+ - Delta DB/DP Range Triggered for Apr 23
+ - Change in DB=  6.26°C, Hour=21 Interval= 6
+ *****
+ - Delta DB/DP Range Triggered for May 21
+ - Change in DB=  4.82°C, Hour=21 Interval= 1
+ *****
+ - Delta DB/DP Range Triggered for May 23
+ - Change in DB=  6.42°C, Hour=22 Interval= 2
+ *****
+ - Delta DB/DP Range Triggered for May 30
+ - Change in DB=  5.47°C, Hour=20 Interval= 4
+ *****
+ - Delta DB/DP Range Triggered for May 31
+ - Change in DP=  4.73°C, Hour=24 Interval= 6
+ *****
+ - Delta DB/DP Range Triggered for Jul 24
+ - Change in DB=  8.22°C, Hour=22 Interval= 2
+ *****
+ - Delta DB/DP Range Triggered for Jul 29
+ - Change in DP= -4.84°C, Hour=22 Interval= 1
+ *****
+ - Delta DB/DP Range Triggered for Dec 20
+ - Change in DP= -4.93°C, Hour=23 Interval= 4
+ *****
+ - Delta DB/DP Range Triggered for Dec 31
+ - Change in DB= 17.75°C, Hour=24 Interval= 6
+ - Change in DP=  7.11°C, Hour=24 Interval= 6
+
+ -Output File Type=epw, with FileName=D:\Users\aguadarr\Desktop\WPy64-3760\notebooks\weather_data_imputation_for_Eplus_simulations\01_weather_data\05_EPWS\imputed_46days.epw
+
+
+ Statistics for imputed_46days
+ Location -- Temixco Morelos MEX  
+      {N 18° 51'} {W  99°  8'} {GMT -6.0 Hours}
+ Elevation --  1280m above sea level
+ Standard Pressure at Elevation --  86864Pa
+ Data Source -- esolmet y ruoa
+
+ -WMO Station unknown
+
+ - Displaying Design Conditions calculated from this weather file.
+ -  The following design temperature statistics are calculated based on THIS weather file ONLY
+ -  and may not be representative of a long-term  period of record normally used for
+ -  design temperatures. Also, note that dew point temperatures are listed where 
+ -  wet-bulb temperatures are normally presented.
+
+ 	Design Stat	Coldest Month	HDB 99.6%	HDB 99%
+ 	   Units   	    {}   	   {C}   	  {C}  
+ 	  Heating  	12	 10.4	 11.3
+
+ 	Design Stat	Hottest Month	CDB .4%	CDB 1%	CDB 2%	CDP .4%	CDP 1%	CDP 2%
+     Units   	  {C}  	  {C} 	  {C} 	  {C}  	  {C} 	  {C} 
+ 	  Cooling  	 5	 34.6	 34.1	 33.5	 18.4	 17.7	 17.4
+
+ 	Design Stat	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec
+ 	   Units   	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}	{m/s}
+ 	Max WS	 12.5	  8.0	  9.4	 14.9	 13.0	 14.2	 10.7	  8.8	  9.9	 10.7	  5.7	  6.7
+
+ - Heating/Cooling Degree Days/Hours calculated from this weather file are later in this report.
+
+ - Monthly Statistics for Dry Bulb temperatures °C
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Maximum 	 29.7	 31.4	 34.8	 34.4	 35.9	 32.8	 32.4	 29.4	 29.0	 29.3	 29.5	 29.4	
+ 	 Day:Hour	22:16	26:17	20:18	19:16	14:16	 4:18	24:17	 5:17	21:16	10:15	 7:16	 4:16	
+
+ 	Minimum 	  8.2	 13.2	 16.2	 17.2	 17.7	 16.3	 15.5	 15.9	 16.3	 15.9	 10.8	  0.0	
+ 	 Day:Hour	14:08	 1:07	 4:07	13:07	30:24	23:05	 9:07	16:07	27:07	28:07	15:07	31:24	
+
+ 	Daily Avg	19.6 	23.0 	25.5 	25.5 	26.7 	22.9 	23.8 	22.1 	22.3 	22.1 	20.6 	19.7 	
+
+   - Maximum Dry Bulb temperature of  35.9°C on May 14
+   - Minimum Dry Bulb temperature of   0.0°C on Dec 31
+
+ - Monthly Statistics for Extreme Dry Bulb temperatures °C
+ 	  #Days  	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Max >= 32	     	     	   18	   16	   25	    3	    1	     	     	     	     	     	
+ 	Max <=  0	     	     	     	     	     	     	     	     	     	     	     	     	
+ 	Min <=  0	     	     	     	     	     	     	     	     	     	     	     	    1	
+ 	Min <=-18	     	     	     	     	     	     	     	     	     	     	     	     	
+
+ - Monthly Statistics for Dew Point temperatures °C
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Maximum 	11.3 	11.1 	12.3 	16.1 	19.9 	17.8 	15.9 	17.3 	17.8 	17.8 	16.0 	15.2 	
+ 	 Day:Hour	28:20	27:03	21:22	24:09	29:03	15:21	 8:08	20:21	13:22	11:20	 1:19	 1:01	
+
+ 	Minimum 	-6.4 	-2.6 	-5.1 	-5.7 	-9.0 	0.8  	-0.9 	7.1  	7.5  	7.7  	-0.9 	-8.9 	
+ 	 Day:Hour	30:15	 5:19	20:17	20:17	 8:19	 1:16	25:17	13:18	28:24	30:17	19:16	20:23	
+
+ 	Daily Avg	2.5  	4.2  	3.5  	5.9  	9.4  	12.9 	10.1 	13.5 	14.0 	13.6 	10.7 	5.9  	
+
+   - Maximum Dew Point temperature of  19.9°C on May 29
+   - Minimum Dew Point temperature of  -9.0°C on May  8
+
+ - Average Hourly Statistics for Dry Bulb temperatures °C
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	 17.7	 20.9	 23.3	 22.9	 24.1	 20.7	 21.8	 19.6	 20.0	 20.0	 18.4	 17.2	
+ 	 1:01- 2:00	 16.9	 20.2	 22.6	 22.2	 23.4	 20.3	 21.1	 19.2	 19.7	 19.6	 18.0	 16.7	
+ 	 2:01- 3:00	 16.3	 19.7	 21.8	 21.7	 22.7	 20.0	 20.5	 19.0	 19.3	 19.1	 17.6	 16.2	
+ 	 3:01- 4:00	 15.7	 18.9	 21.2	 21.1	 22.2	 19.6	 19.8	 18.7	 18.9	 18.8	 17.3	 15.9	
+ 	 4:01- 5:00	 15.2	 18.4	 20.6	 20.5	 21.7	 19.2	 19.3	 18.4	 18.6	 18.5	 16.9	 15.4	
+ 	 5:01- 6:00	 14.6	 17.8	 20.0	 19.9	 21.2	 18.9	 18.8	 18.2	 18.3	 18.2	 16.6	 15.0	
+ 	 6:01- 7:00	 14.2	 17.3	 19.4	 19.7	 21.1	 19.0	 18.7	 18.0	 18.0	 17.9	 16.2	 14.5	
+ 	 7:01- 8:00	 14.2	 17.3	 20.2	 21.2	 22.6	 20.3	 20.5	 19.4	 19.4	 19.0	 17.1	 14.8	
+ 	 8:01- 9:00	 16.7	 20.2	 23.0	 23.5	 24.3	 21.5	 22.6	 21.1	 21.2	 21.4	 19.6	 17.7	
+ 	 9:01-10:00	 18.8	 22.1	 24.2	 24.5	 25.6	 22.5	 23.4	 22.0	 22.4	 22.6	 20.9	 19.6	
+ 	10:01-11:00	 19.9	 23.3	 25.5	 25.9	 26.9	 23.6	 24.5	 23.0	 23.3	 23.5	 22.0	 20.8	
+ 	11:01-12:00	 21.3	 24.6	 26.9	 27.3	 28.4	 24.6	 25.6	 24.1	 24.4	 24.4	 23.0	 22.0	
+ 	12:01-13:00	 22.7	 25.9	 28.3	 28.6	 29.8	 25.5	 26.5	 25.1	 25.1	 25.5	 24.1	 23.3	
+ 	13:01-14:00	 23.9	 27.1	 29.5	 29.9	 31.0	 26.4	 27.5	 25.9	 26.1	 26.2	 25.0	 24.4	
+ 	14:01-15:00	 24.8	 27.9	 30.5	 30.8	 31.9	 27.2	 28.3	 26.6	 26.7	 26.8	 25.6	 25.4	
+ 	15:01-16:00	 25.5	 28.7	 31.2	 31.2	 32.5	 27.5	 28.8	 26.9	 26.9	 27.1	 25.8	 25.9	
+ 	16:01-17:00	 25.6	 29.0	 31.5	 31.3	 32.7	 27.3	 29.0	 26.9	 26.7	 26.8	 25.6	 25.8	
+ 	17:01-18:00	 25.1	 28.7	 31.4	 30.9	 32.4	 26.9	 28.5	 26.2	 26.1	 26.0	 24.7	 25.0	
+ 	18:01-19:00	 23.4	 27.5	 30.3	 29.9	 31.6	 26.2	 27.4	 25.2	 24.8	 24.1	 22.4	 22.6	
+ 	19:01-20:00	 20.9	 25.5	 28.7	 28.7	 30.2	 24.8	 25.7	 23.6	 23.3	 22.5	 20.6	 20.2	
+ 	20:01-21:00	 20.0	 23.9	 27.0	 27.2	 28.3	 23.5	 24.2	 22.3	 22.4	 21.7	 20.1	 19.4	
+ 	21:01-22:00	 19.6	 23.3	 25.9	 25.6	 26.9	 22.4	 23.3	 21.1	 21.8	 20.9	 19.6	 18.8	
+ 	22:01-23:00	 19.0	 22.5	 24.9	 24.7	 25.7	 21.6	 23.2	 20.3	 21.2	 20.6	 19.3	 18.3	
+ 	23:01-24:00	 18.3	 21.8	 24.1	 23.6	 24.8	 21.0	 22.6	 19.9	 20.6	 20.2	 18.9	 17.7	
+ 	 Max Hour  	  17 	  17 	  17 	  17 	  17 	  16 	  17 	  16 	  16 	  16 	  16 	  16 	
+ 	 Min Hour  	   7 	   7 	   7 	   7 	   7 	   6 	   7 	   7 	   7 	   7 	   7 	   7 	
+
+ - Average Hourly Statistics for Dew Point temperatures °C
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	  2.8	  4.7	  3.7	  6.6	  9.6	 14.0	 10.8	 14.3	 14.4	 14.2	 10.9	  6.5	
+ 	 1:01- 2:00	  2.9	  4.7	  3.6	  6.9	  9.7	 13.9	 10.6	 14.3	 14.4	 14.1	 11.0	  6.4	
+ 	 2:01- 3:00	  2.8	  4.7	  3.7	  6.9	  9.7	 13.8	 10.7	 14.3	 14.3	 14.1	 10.8	  6.4	
+ 	 3:01- 4:00	  2.8	  4.8	  3.8	  7.2	  9.7	 13.8	 10.7	 14.4	 14.2	 13.9	 10.7	  6.4	
+ 	 4:01- 5:00	  2.9	  4.8	  3.9	  7.2	  9.6	 13.8	 10.7	 14.3	 14.1	 13.7	 10.6	  6.3	
+ 	 5:01- 6:00	  3.0	  5.0	  4.1	  7.3	  9.6	 13.8	 10.6	 14.0	 14.0	 13.5	 10.5	  6.0	
+ 	 6:01- 7:00	  2.9	  5.0	  4.3	  7.3	  9.7	 13.7	 10.6	 13.9	 13.8	 13.5	 10.5	  6.0	
+ 	 7:01- 8:00	  2.8	  5.2	  4.6	  7.4	 10.0	 13.8	 10.9	 14.2	 14.1	 13.7	 10.7	  6.0	
+ 	 8:01- 9:00	  3.0	  5.2	  5.2	  7.8	 10.4	 13.6	 10.4	 14.0	 14.3	 13.7	 10.9	  6.5	
+ 	 9:01-10:00	  2.8	  4.9	  5.5	  7.8	 10.7	 13.4	 10.3	 14.0	 14.2	 13.5	 11.0	  6.4	
+ 	10:01-11:00	  2.8	  4.8	  5.4	  7.7	 10.7	 13.0	 10.2	 13.7	 14.1	 13.4	 11.0	  6.3	
+ 	11:01-12:00	  2.6	  4.4	  5.2	  6.9	 10.4	 12.7	 10.0	 13.2	 13.8	 13.3	 10.8	  6.0	
+ 	12:01-13:00	  2.4	  4.0	  4.3	  5.7	  9.7	 12.5	  9.7	 12.8	 13.6	 13.1	 10.4	  5.7	
+ 	13:01-14:00	  2.0	  3.7	  3.6	  4.8	  9.3	 12.0	  9.2	 12.6	 13.5	 12.7	  9.9	  5.1	
+ 	14:01-15:00	  1.6	  3.3	  2.9	  3.9	  8.9	 11.5	  8.7	 12.2	 13.3	 12.4	  9.6	  4.6	
+ 	15:01-16:00	  1.3	  2.9	  2.2	  3.5	  8.3	 11.0	  8.4	 11.9	 13.1	 12.4	  9.3	  4.2	
+ 	16:01-17:00	  1.1	  2.4	  1.3	  3.0	  7.7	 11.0	  8.4	 11.7	 13.0	 12.5	  9.2	  4.0	
+ 	17:01-18:00	  1.2	  2.3	  1.1	  2.9	  7.7	 11.0	  8.7	 11.8	 13.1	 12.9	  9.7	  4.3	
+ 	18:01-19:00	  1.9	  2.7	  1.2	  3.2	  8.0	 11.6	  9.4	 12.7	 14.2	 14.1	 11.4	  5.6	
+ 	19:01-20:00	  2.9	  3.6	  1.7	  4.0	  8.3	 12.5	 10.5	 13.9	 15.0	 14.7	 12.1	  6.6	
+ 	20:01-21:00	  3.0	  3.9	  2.1	  4.7	  8.9	 13.1	 10.9	 14.2	 14.9	 14.6	 11.8	  6.6	
+ 	21:01-22:00	  2.9	  4.1	  3.1	  5.7	  9.4	 13.3	 11.1	 14.1	 14.6	 14.5	 11.5	  6.4	
+ 	22:01-23:00	  2.9	  4.4	  3.7	  6.1	  9.6	 13.5	 10.4	 14.2	 14.2	 14.3	 11.2	  6.4	
+ 	23:01-24:00	  2.8	  4.7	  3.7	  6.5	  9.6	 13.8	 10.4	 14.4	 14.1	 14.1	 11.1	  6.3	
+ 	 Max Hour  	   9 	   9 	  10 	   9 	  11 	   1 	  22 	   4 	  20 	  20 	  20 	  20 	
+ 	 Min Hour  	  17 	  18 	  18 	  18 	  17 	  16 	  17 	  17 	  17 	  16 	  17 	  17 	
+
+ - Monthly Statistics for Relative Humidity %
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Maximum  	60   	56   	53   	85   	98   	87   	85   	87   	88   	87   	86   	83   	
+ 	 Day:Hour 	11:06	13:08	 8:07	24:08	24:05	14:04	24:22	22:04	15:02	11:08	29:21	 1:07	
+
+ 	Minimum  	11   	12   	7    	8    	6    	13   	13   	29   	31   	28   	16   	0    	
+ 	 Day:Hour 	16:17	 4:18	20:17	20:17	 8:19	 1:18	25:17	 8:16	30:16	30:17	19:16	31:24	
+
+ 	Daily Avg	34   	31   	26   	32   	38   	57   	44   	61   	61   	60   	55   	43   	
+
+ - Average Hourly Relative Humidity %
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	   37	   35	   28	   38	   44	   68	   52	   72	   71	   70	   62	   50	
+ 	 1:01- 2:00	   39	   36	   29	   40	   46	   69	   53	   74	   72	   71	   64	   51	
+ 	 2:01- 3:00	   41	   38	   31	   42	   48	   70	   55	   75	   74	   73	   65	   53	
+ 	 3:01- 4:00	   42	   40	   33	   44	   49	   71	   57	   76	   74	   74	   66	   54	
+ 	 4:01- 5:00	   44	   41	   34	   45	   50	   72	   58	   77	   76	   74	   67	   55	
+ 	 5:01- 6:00	   46	   43	   36	   46	   51	   74	   59	   77	   76	   74	   68	   56	
+ 	 6:01- 7:00	   47	   44	   37	   47	   52	   73	   60	   77	   77	   75	   69	   57	
+ 	 7:01- 8:00	   47	   45	   37	   43	   48	   68	   55	   72	   72	   71	   67	   56	
+ 	 8:01- 9:00	   40	   38	   32	   38	   44	   62	   47	   65	   65	   62	   58	   48	
+ 	 9:01-10:00	   35	   33	   30	   35	   42	   58	   44	   61	   60	   57	   54	   43	
+ 	10:01-11:00	   33	   30	   28	   32	   39	   53	   41	   56	   57	   53	   51	   40	
+ 	11:01-12:00	   29	   27	   25	   28	   35	   49	   38	   51	   52	   50	   48	   36	
+ 	12:01-13:00	   26	   25	   22	   24	   31	   46	   35	   47	   49	   46	   44	   33	
+ 	13:01-14:00	   24	   22	   20	   21	   28	   42	   32	   44	   46	   43	   40	   29	
+ 	14:01-15:00	   22	   21	   18	   19	   26	   39	   30	   41	   44	   41	   39	   27	
+ 	15:01-16:00	   21	   19	   16	   18	   24	   38	   28	   40	   43	   40	   38	   25	
+ 	16:01-17:00	   20	   18	   15	   18	   23	   39	   28	   39	   43	   42	   38	   25	
+ 	17:01-18:00	   21	   19	   15	   18	   24	   40	   30	   42	   45	   45	   41	   27	
+ 	18:01-19:00	   25	   21	   16	   19	   25	   43	   33	   47	   52	   54	   51	   34	
+ 	19:01-20:00	   31	   25	   18	   22	   29	   49	   40	   55	   60	   62	   59	   42	
+ 	20:01-21:00	   33	   27	   20	   25	   33	   55	   45	   61	   63	   65	   60	   44	
+ 	21:01-22:00	   33	   29	   23	   30	   38	   60	   48	   65	   64	   67	   60	   46	
+ 	22:01-23:00	   35	   31	   26	   33	   41	   63	   46	   69	   65	   68	   60	   47	
+ 	23:01-24:00	   36	   33	   27	   36	   43	   66	   48	   71	   68	   69	   61	   47	
+ 	 Max Hour  	   7 	   8 	   7 	   7 	   7 	   6 	   7 	   5 	   7 	   7 	   7 	   7 	
+ 	 Min Hour  	  17 	  17 	  18 	  17 	  17 	  16 	  17 	  17 	  16 	  16 	  16 	  17 	
+
+ - Monthly Indicators for Precipitation/Moisture (kPa)
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	         	  0.7	  0.8	  0.8	  0.8	  1.2	  1.4	  1.1	  1.4	  1.5	  1.4	  1.2	  0.9	
+
+ - Monthly Statistics for Wind Chill/Heat Index temperatures °C **
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Minimum WC	    5	     	     	     	     	     	     	     	     	     	     	     	
+ 	 Day:Hour	14:05	     	     	     	     	     	     	     	     	     	     	     	
+
+ 	Average WC	    8	     	     	     	     	     	     	     	     	     	     	     	
+ 	Avg Del WC	    1	     	     	     	     	     	     	     	     	     	     	     	
+ 	 # Occur WC	   31	     	     	     	     	     	     	     	     	     	     	     	
+
+ 	Maximum HI	     	     	     	     	   31	   28	   27	   28	   28	   28	   28	     	
+ 	 Day:Hour	     	     	     	     	30:19	16:15	24:11	30:17	18:15	13:16	 8:14	     	
+
+ 	Average HI	     	     	     	     	   28	   27	   27	   27	   27	   27	   27	     	
+ 	Avg Del HI	     	     	     	     	    0	    0	    0	    0	    0	    0	    0	     	
+ 	 # Occur HI	     	     	     	     	  249	   68	    3	   62	  144	   72	    3	     	
+
+   - **WindChill/HeatIndex Temps -- statistics...only those different from Air Temps
+
+ - Monthly Wind Direction % {N=0 or 360,E=90,S=180,W=270}
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	North    	   29	   29	   27	   22	   20	   15	   20	   17	   23	   26	   33	   36	
+ 	NorthEast	    4	    6	    8	    9	    8	    9	    7	    8	    7	    7	    4	    4	
+ 	East     	    3	    6	    5	    6	    7	    5	    5	    5	    3	    3	    3	    2	
+ 	SouthEast	    9	   13	   11	   13	   15	    9	    8	    8	    7	    7	    7	    7	
+ 	South    	   13	   15	   16	   15	   16	   18	   14	   16	   13	   12	   12	   13	
+ 	SouthWest	   13	   10	   13	   13	   13	   20	   15	   19	   17	   14	   14	   11	
+ 	West     	   10	    7	    7	    9	    8	   10	   12	   13	   12	   10	    9	    9	
+ 	NorthWest	   20	   14	   13	   13	   13	   15	   19	   15	   18	   20	   18	   17	
+
+ - Monthly Statistics for Wind Speed m/s
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Maximum 	12.5 	8.0  	9.4  	14.9 	13.0 	14.2 	10.7 	8.8  	9.9  	10.7 	5.7  	6.7  	
+ 	 Day:Hour 	29:21	20:17	21:22	23:22	21:21	27:24	24:22	26:22	14:24	14:21	13:19	 5:20	
+
+ 	Minimum 	0.1  	0.1  	0.1  	0.1  	0.1  	0.1  	0.1  	0.1  	0.1  	0.1  	0.1  	0.0  	
+ 	 Day:Hour 	 9:19	10:09	12:09	26:09	 8:10	16:10	28:07	11:03	12:03	 7:08	27:05	31:24	
+
+ 	Daily Avg	2.0  	1.9  	2.0  	2.1  	2.0  	1.8  	1.9  	1.9  	1.9  	1.8  	1.7  	1.9  	
+
+   - Maximum Wind Speed of  14.9 m/s on Apr 23
+   - Minimum Wind Speed of   0.0 m/s on Dec 31
+
+ - Average Hourly Statistics for Wind Speed m/s
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	  2.0	  1.8	  1.7	  2.0	  2.0	  1.6	  1.7	  1.6	  1.6	  1.4	  1.6	  1.8	
+ 	 1:01- 2:00	  1.9	  1.8	  2.0	  1.8	  1.7	  1.5	  1.8	  1.4	  1.6	  1.5	  1.6	  2.0	
+ 	 2:01- 3:00	  2.0	  1.8	  1.8	  1.6	  1.9	  1.4	  1.9	  1.2	  1.5	  1.6	  1.7	  2.0	
+ 	 3:01- 4:00	  2.2	  2.0	  1.8	  1.5	  1.6	  1.3	  1.8	  1.4	  1.4	  1.5	  1.8	  2.2	
+ 	 4:01- 5:00	  2.1	  1.9	  1.9	  1.9	  1.6	  1.2	  1.7	  1.2	  1.6	  1.6	  1.8	  2.2	
+ 	 5:01- 6:00	  2.2	  1.9	  1.8	  1.8	  1.5	  1.3	  1.8	  1.2	  1.4	  1.4	  1.8	  2.1	
+ 	 6:01- 7:00	  2.3	  2.1	  1.7	  1.7	  1.4	  1.2	  1.7	  1.3	  1.5	  1.5	  1.8	  1.9	
+ 	 7:01- 8:00	  2.0	  2.0	  1.4	  1.3	  1.0	  1.0	  1.2	  1.1	  1.0	  1.1	  1.4	  1.7	
+ 	 8:01- 9:00	  1.2	  1.1	  1.1	  1.3	  1.2	  1.2	  1.2	  1.3	  1.1	  0.9	  1.0	  1.0	
+ 	 9:01-10:00	  1.6	  1.5	  1.6	  1.7	  1.6	  1.7	  1.9	  1.7	  1.6	  1.3	  1.4	  1.4	
+ 	10:01-11:00	  1.9	  1.9	  1.9	  1.8	  1.9	  1.7	  2.1	  2.1	  2.1	  1.8	  1.6	  1.8	
+ 	11:01-12:00	  1.8	  1.9	  1.9	  2.1	  2.1	  1.8	  2.2	  2.1	  2.1	  2.1	  1.9	  1.8	
+ 	12:01-13:00	  1.8	  1.9	  2.0	  2.2	  2.2	  2.1	  2.1	  2.4	  2.4	  2.1	  1.8	  1.9	
+ 	13:01-14:00	  1.8	  2.2	  2.2	  2.3	  2.3	  2.2	  2.1	  2.4	  2.3	  2.1	  1.8	  1.8	
+ 	14:01-15:00	  2.1	  2.2	  2.5	  2.5	  2.4	  2.2	  2.2	  2.3	  2.2	  2.0	  1.9	  2.0	
+ 	15:01-16:00	  1.9	  2.3	  2.5	  2.6	  2.5	  2.1	  2.2	  2.4	  2.4	  2.2	  1.9	  2.0	
+ 	16:01-17:00	  1.9	  2.1	  2.6	  2.4	  2.4	  2.3	  2.1	  2.4	  2.5	  2.1	  1.8	  1.8	
+ 	17:01-18:00	  1.6	  1.8	  2.2	  2.5	  2.4	  2.2	  2.2	  2.4	  2.1	  1.9	  1.5	  1.7	
+ 	18:01-19:00	  1.5	  1.7	  2.0	  2.7	  2.6	  2.0	  2.3	  2.0	  1.8	  2.2	  2.0	  2.0	
+ 	19:01-20:00	  2.9	  2.5	  2.4	  2.8	  2.7	  2.2	  2.2	  2.0	  1.9	  2.3	  2.3	  2.6	
+ 	20:01-21:00	  2.5	  2.4	  2.5	  2.7	  2.8	  2.2	  2.3	  2.3	  1.9	  2.3	  1.9	  2.0	
+ 	21:01-22:00	  2.2	  1.9	  2.2	  2.8	  2.4	  2.4	  2.2	  2.5	  2.0	  2.2	  1.7	  2.0	
+ 	22:01-23:00	  2.1	  1.9	  1.9	  2.6	  2.3	  1.8	  1.9	  2.1	  2.2	  1.8	  1.6	  1.8	
+ 	23:01-24:00	  2.1	  1.7	  1.7	  2.4	  2.3	  2.0	  1.8	  1.9	  2.1	  1.6	  1.7	  1.7	
+ 	 Max Hour  	  20 	  20 	  17 	  22 	  21 	  22 	  19 	  22 	  17 	  21 	  20 	  20 	
+ 	 Min Hour  	   9 	   9 	   9 	   8 	   8 	   8 	   8 	   8 	   8 	   9 	   9 	   9 	
+
+ - Average Hourly Statistics for Wind Direction ° {N=0 or 360,E=90,S=180,W=270}
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	  273	  227	  204	  210	  195	  179	  196	  194	  179	  196	  257	  277	
+ 	 1:01- 2:00	  269	  237	  206	  204	  193	  189	  209	  174	  220	  197	  265	  274	
+ 	 2:01- 3:00	  274	  222	  219	  195	  206	  212	  226	  203	  223	  235	  268	  275	
+ 	 3:01- 4:00	  274	  256	  224	  199	  216	  201	  231	  197	  222	  231	  261	  258	
+ 	 4:01- 5:00	  267	  237	  243	  233	  241	  202	  235	  190	  225	  267	  241	  266	
+ 	 5:01- 6:00	  265	  263	  241	  247	  235	  219	  244	  197	  219	  248	  278	  269	
+ 	 6:01- 7:00	  296	  272	  246	  259	  244	  219	  281	  192	  237	  255	  275	  289	
+ 	 7:01- 8:00	  263	  267	  221	  203	  199	  186	  216	  179	  200	  211	  269	  268	
+ 	 8:01- 9:00	  195	  181	  177	  166	  164	  192	  200	  182	  179	  181	  212	  209	
+ 	 9:01-10:00	  183	  172	  169	  163	  170	  175	  200	  189	  186	  186	  179	  185	
+ 	10:01-11:00	  186	  178	  163	  166	  164	  179	  192	  198	  194	  202	  185	  194	
+ 	11:01-12:00	  175	  176	  157	  162	  159	  181	  200	  195	  196	  195	  191	  197	
+ 	12:01-13:00	  181	  182	  163	  167	  153	  188	  186	  205	  202	  196	  197	  184	
+ 	13:01-14:00	  182	  166	  167	  155	  156	  175	  184	  197	  214	  187	  198	  176	
+ 	14:01-15:00	  180	  185	  168	  167	  152	  191	  186	  197	  209	  183	  192	  170	
+ 	15:01-16:00	  170	  182	  175	  169	  164	  185	  193	  222	  213	  200	  201	  185	
+ 	16:01-17:00	  166	  174	  167	  169	  171	  206	  221	  230	  221	  230	  205	  182	
+ 	17:01-18:00	  177	  156	  169	  168	  197	  217	  250	  234	  248	  233	  225	  194	
+ 	18:01-19:00	  195	  162	  172	  177	  214	  230	  263	  254	  255	  268	  285	  233	
+ 	19:01-20:00	  285	  227	  219	  199	  234	  213	  243	  228	  266	  264	  281	  313	
+ 	20:01-21:00	  256	  261	  246	  214	  207	  210	  198	  173	  206	  230	  270	  286	
+ 	21:01-22:00	  222	  207	  208	  176	  188	  174	  139	  165	  218	  232	  268	  267	
+ 	22:01-23:00	  252	  191	  194	  176	  181	  154	  163	  195	  201	  217	  247	  261	
+ 	23:01-24:00	  253	  188	  202	  168	  208	  177	  179	  218	  189	  227	  272	  270	
+ 	 Max Hour  	   7 	   7 	  21 	   7 	   7 	  19 	   7 	  19 	  20 	  19 	  19 	  20 	
+ 	 Min Hour  	  17 	  18 	  12 	  14 	  15 	  23 	  22 	  22 	   1 	   9 	  10 	  15 	
+
+ - Monthly Statistics for Solar Radiation  (Direct Normal, Diffuse, Global Horizontal) Wh/m²
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	Direct Avg 	5511 	6367 	6984 	5668 	4801 	4447 	6621 	5542 	5543 	5287 	5317 	6144 	
+
+ 	Direct Max 	49394	51875	52183	55442	45230	53696	53493	52460	50616	50594	54794	55473	
+ 	    Day    	  15 	  16 	  17 	  14 	   8 	  29 	  28 	  24 	  27 	  24 	  19 	   2 	
+
+ 	Diffuse Avg	1814 	1817 	1862 	2607 	2722 	3133 	2261 	2621 	2424 	2230 	1637 	1563 	
+
+ 	Global Avg 	5014 	5917 	6785 	6971 	6498 	6646 	7404 	6878 	6556 	5820 	4819 	4967 	
+   - Maximum Direct Normal Solar of 55472 Wh/m² on Dec  2
+
+ - Average Hourly Statistics for Direct Normal Solar Radiation Wh/m²
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 1:01- 2:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 2:01- 3:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 3:01- 4:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 4:01- 5:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 5:01- 6:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 6:01- 7:00	    0	    0	    3	   25	   41	   50	   61	   32	   17	    9	    1	    0	
+ 	 7:01- 8:00	   77	  118	  248	  254	  209	  165	  342	  227	  226	  205	  211	  155	
+ 	 8:01- 9:00	  387	  450	  543	  454	  374	  285	  534	  431	  370	  400	  443	  477	
+ 	 9:01-10:00	  569	  631	  677	  559	  478	  454	  650	  551	  528	  531	  570	  635	
+ 	10:01-11:00	  675	  733	  777	  639	  556	  502	  736	  565	  611	  641	  601	  737	
+ 	11:01-12:00	  676	  776	  811	  728	  617	  494	  761	  614	  625	  657	  634	  759	
+ 	12:01-13:00	  682	  769	  806	  745	  605	  503	  752	  638	  648	  636	  647	  695	
+ 	13:01-14:00	  642	  742	  785	  662	  544	  557	  733	  649	  730	  624	  625	  694	
+ 	14:01-15:00	  628	  642	  732	  593	  457	  505	  667	  594	  618	  551	  563	  718	
+ 	15:01-16:00	  551	  644	  636	  423	  389	  393	  597	  513	  521	  488	  494	  583	
+ 	16:01-17:00	  414	  516	  545	  312	  295	  312	  461	  435	  440	  388	  371	  463	
+ 	17:01-18:00	  202	  303	  347	  218	  182	  186	  277	  253	  185	  157	  159	  228	
+ 	18:01-19:00	    7	   44	   73	   56	   53	   40	   49	   42	   24	    1	    0	    0	
+ 	19:01-20:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	20:01-21:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	21:01-22:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	22:01-23:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	23:01-24:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 Max Hour  	  13 	  12 	  12 	  13 	  12 	  14 	  12 	  14 	  14 	  12 	  13 	  12 	
+ 	 Min Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	
+
+ - Average Hourly Statistics for Diffuse Horizontal Solar Radiation Wh/m²
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 1:01- 2:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 2:01- 3:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 3:01- 4:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 4:01- 5:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 5:01- 6:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 6:01- 7:00	    0	    0	    2	   14	   33	   28	   21	   13	    9	    6	    2	    0	
+ 	 7:01- 8:00	   20	   29	   43	   89	  116	  120	   84	   94	   74	   62	   37	   24	
+ 	 8:01- 9:00	   81	   92	   98	  162	  178	  227	  133	  166	  161	  140	   90	   76	
+ 	 9:01-10:00	  128	  128	  140	  225	  242	  272	  177	  224	  223	  207	  139	  119	
+ 	10:01-11:00	  167	  153	  166	  267	  269	  309	  192	  264	  259	  228	  192	  149	
+ 	11:01-12:00	  214	  188	  191	  263	  296	  349	  214	  302	  299	  260	  211	  180	
+ 	12:01-13:00	  244	  220	  213	  268	  319	  388	  229	  332	  307	  289	  221	  239	
+ 	13:01-14:00	  261	  240	  228	  332	  325	  372	  252	  318	  269	  280	  228	  226	
+ 	14:01-15:00	  246	  248	  231	  322	  325	  335	  266	  303	  276	  276	  202	  198	
+ 	15:01-16:00	  213	  217	  215	  299	  281	  316	  256	  245	  242	  244	  163	  177	
+ 	16:01-17:00	  161	  182	  184	  215	  195	  228	  234	  193	  187	  167	  110	  125	
+ 	17:01-18:00	   76	  105	  121	  118	  113	  144	  150	  129	  103	   70	   41	   52	
+ 	18:01-19:00	    4	   16	   29	   33	   30	   46	   50	   38	   15	    1	    0	    0	
+ 	19:01-20:00	    0	    0	    0	    0	    0	    1	    1	    0	    0	    0	    0	    0	
+ 	20:01-21:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	21:01-22:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	22:01-23:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	23:01-24:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 Max Hour  	  14 	  15 	  15 	  14 	  15 	  13 	  15 	  13 	  13 	  13 	  14 	  13 	
+ 	 Min Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	
+
+ - Average Hourly Statistics for Global Horizontal Solar Radiation Wh/m²
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 1:01- 2:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 2:01- 3:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 3:01- 4:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 4:01- 5:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 5:01- 6:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 6:01- 7:00	    0	    0	    2	   18	   40	   36	   30	   18	   11	    7	    2	    0	
+ 	 7:01- 8:00	   30	   48	  100	  166	  190	  178	  197	  164	  138	  117	   80	   48	
+ 	 8:01- 9:00	  194	  246	  332	  395	  388	  388	  420	  391	  348	  324	  266	  230	
+ 	 9:01-10:00	  398	  467	  565	  619	  598	  607	  646	  613	  587	  551	  464	  434	
+ 	10:01-11:00	  590	  660	  774	  813	  759	  748	  829	  749	  769	  729	  613	  615	
+ 	11:01-12:00	  702	  808	  909	  953	  894	  825	  944	  889	  878	  826	  703	  723	
+ 	12:01-13:00	  764	  871	  961	 1000	  922	  888	  979	  964	  926	  850	  733	  754	
+ 	13:01-14:00	  737	  857	  941	  963	  848	  911	  966	  944	  942	  802	  696	  717	
+ 	14:01-15:00	  663	  733	  835	  834	  725	  782	  862	  826	  787	  679	  567	  644	
+ 	15:01-16:00	  509	  619	  651	  605	  566	  609	  710	  624	  595	  523	  410	  458	
+ 	16:01-17:00	  312	  412	  456	  379	  357	  407	  504	  435	  400	  315	  225	  265	
+ 	17:01-18:00	  110	  176	  221	  186	  175	  214	  256	  218	  157	   97	   60	   79	
+ 	18:01-19:00	    4	   19	   37	   40	   37	   54	   60	   44	   18	    2	    0	    0	
+ 	19:01-20:00	    0	    0	    0	    0	    0	    1	    1	    0	    0	    0	    0	    0	
+ 	20:01-21:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	21:01-22:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	22:01-23:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	23:01-24:00	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	 Max Hour  	  13 	  13 	  13 	  13 	  13 	  14 	  13 	  13 	  14 	  13 	  13 	  13 	
+ 	 Min Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	
+
+ - Average Hourly Statistics for Total Sky Cover %
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 1:01- 2:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 2:01- 3:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 3:01- 4:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 4:01- 5:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 5:01- 6:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 6:01- 7:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 7:01- 8:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 8:01- 9:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 9:01-10:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	10:01-11:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	11:01-12:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	12:01-13:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	13:01-14:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	14:01-15:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	15:01-16:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	16:01-17:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	17:01-18:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	18:01-19:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	19:01-20:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	20:01-21:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	21:01-22:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	22:01-23:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	23:01-24:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 Max Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	
+ 	 Min Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	  24 	
+
+ - Average Hourly Statistics for Opaque Sky Cover %
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	 0:01- 1:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 1:01- 2:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 2:01- 3:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 3:01- 4:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 4:01- 5:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 5:01- 6:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 6:01- 7:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 7:01- 8:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 8:01- 9:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 9:01-10:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	10:01-11:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	11:01-12:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	12:01-13:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	13:01-14:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	14:01-15:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	15:01-16:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	16:01-17:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	17:01-18:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	18:01-19:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	19:01-20:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	20:01-21:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	21:01-22:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	22:01-23:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	23:01-24:00	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	   50	
+ 	 Max Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	
+ 	 Min Hour  	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	   1 	  24 	
+
+ - Monthly Calculated "undisturbed" Ground Temperatures** °C
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	   0.5 m  	 19.6	 20.2	 21.4	 22.5	 24.6	 25.8	 26.1	 25.5	 24.2	 22.6	 21.0	 19.9	
+ 	   2.0 m  	 20.4	 20.6	 21.3	 22.0	 23.7	 24.7	 25.2	 25.1	 24.4	 23.2	 22.0	 21.0	
+ 	   4.0 m  	 21.3	 21.2	 21.5	 21.9	 23.0	 23.8	 24.3	 24.5	 24.1	 23.5	 22.6	 21.8	
+
+   - **These ground temperatures should NOT BE USED in the GroundTemperatures object to compute building floor losses.
+   -   The temperatures for 0.5 m depth can be used for GroundTemperatures:Surface.
+   -   The temperatures for 4.0 m depth can be used for GroundTemperatures:Deep.
+   -   Calculations use a standard soil diffusivity of 2.3225760E-03 {m**2/day}
+
+ - Heating/Cooling Degree Days/Hours calculated from this weather file.
+ - Monthly Weather File Heating/Cooling Degree Days/Hours
+ 	           	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec	
+ 	HDD base 10C	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+ 	HDD base 18C	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	    0	
+
+ 	CDD base 10C	21561	22924	28138	27273	29540	24479	26269	24374	23776	24408	21988	21667	
+ 	CDD base 18C	21313	22700	27890	27033	29292	24239	26021	24126	23536	24160	21748	21419	
+
+ 	CDH base 20C	 1176	 2386	 4154	 4063	 5057	 2420	 3032	 1970	 1955	 1947	 1383	 1171	
+ 	CDH base 23C	  417	 1149	 2374	 2355	 3110	 1126	 1465	  797	  740	  754	  545	  401	
+ 	CDH base 27C	   16	  225	  830	  816	 1290	  231	  274	   38	   28	   33	   50	   13	
+
+    -***** annual (wthr file) cooling degree-days (10°C baseline)
+    -    0 annual (wthr file) heating degree-days (10°C baseline)
+
+    -***** annual (wthr file) cooling degree-days (18°C baseline)
+    -    0 annual (wthr file) heating degree-days (18°C baseline)
+
+ - Climate type "BWh" (Köppen classification)**
+ - Subtropical hot desert (lat. 15-25°N)
+ - Unbearably hot dry periods in summer, but passive cooling is possible
+ - **Note that the Köppen classification shown here is derived algorithmically from the source weather data.
+ -   It may not be indicative of the long term climate for this location.
+
+ - Climate type "1B" (ASHRAE Standard 196-2006 Climate Zone)**
+ - Very Hot - Dry, Probable Köppen classification=Bw, Arid Tropical Dry
+ - **Note that the ASHRAE classification shown here is derived algorithmically from the source weather data.
+ -   It may not be indicative of the long term climate for this location.
+
+ - Typical/Extreme Period Determination
+
+ - Summer is Mar:May
+     Extreme Summer Week (nearest maximum temperature for summer)
+     Extreme Hot Week Period selected: May 10:May 16, Maximum Temp=  35.87°C, Deviation=| 8.317|°C
+     Typical Summer Week (nearest average temperature for summer)
+     Typical Week Period selected: May 24:May 30, Average Temp=  25.93°C, Deviation=| 0.008|°C
+
+ - Winter is Sep:Nov
+     Extreme Winter Week (nearest minimum temperature for winter)
+     Extreme Cold Week Period selected: Nov 10:Nov 16, Minimum Temp=  10.78°C, Deviation=| 8.872|°C
+     Typical Winter Week (nearest average temperature for winter)
+     Typical Week Period selected: Oct 27:Nov  2, Average Temp=  21.70°C, Deviation=| 0.065|°C
+
+ - Autumn is Jun:Aug
+     Typical Autumn Week (nearest average temperature for autumn)
+     Typical Week Period selected: Jun 29:Jul  5, Average Temp=  22.96°C, Deviation=| 0.033|°C
+
+ - Spring is Dec:Feb
+     Typical Spring Week (nearest average temperature for spring)
+     Typical Week Period selected: Dec  1:Dec  7, Average Temp=  20.69°C, Deviation=| 0.286|°C
